@@ -1,0 +1,59 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-02T20:00:51.401Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-02T20:00:51.401Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "en-us"
+  ],
+  "steps": [
+    {
+      "slug": "en-us",
+      "path": "/en-us",
+      "templateId": "en-us",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "quick-links",
+          "edsBlockName": "quick-links"
+        },
+        {
+          "id": "banner",
+          "edsBlockName": "banner"
+        },
+        {
+          "id": "editorial-cards",
+          "edsBlockName": "editorial-cards"
+        },
+        {
+          "id": "standard-cards",
+          "edsBlockName": "standard-cards"
+        },
+        {
+          "id": "sustainability",
+          "edsBlockName": "sustainability"
+        },
+        {
+          "id": "category-cards",
+          "edsBlockName": "category-cards"
+        },
+        {
+          "id": "reasons",
+          "edsBlockName": "reasons"
+        },
+        {
+          "id": "legal",
+          "edsBlockName": "legal"
+        }
+      ],
+      "reuse": []
+    }
+  ]
+}

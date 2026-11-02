@@ -1,0 +1,134 @@
+/* quick-links — lifted from stardust/prototypes/en-us.css (quick links, below lg only), scoped. */
+.quick-links {
+  padding-block: 20px;
+  overflow-x: hidden;
+  color: var(--fg);
+}
+
+.quick-links .wrap {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gutter);
+}
+
+.quick-links .quick-links-track {
+  position: relative;
+}
+
+.quick-links .quick-links-row {
+  display: flex;
+  gap: 12px;
+  transition: transform 0.3s ease;
+}
+
+.quick-links .quick-links-item {
+  flex-shrink: 0;
+  max-width: 72px;
+}
+
+.quick-links .quick-links-item .circle {
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.quick-links .quick-links-item img {
+  width: 72px;
+  height: 72px;
+  background: var(--gray-930);
+  transition: transform 0.3s ease;
+}
+
+.quick-links .quick-links-item figcaption {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+
+.quick-links .quick-links-item figcaption :is(p, h2, h3, h4) {
+  margin: 0;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+/* carousel arrows (present below lg, invisible at rest: opacity 0 until focus) */
+.quick-links .carousel-arrows {
+  position: absolute;
+  inset: 0;
+  bottom: auto;
+  height: 72px;
+  margin-inline: calc(var(--grid-margin) * -1);
+  pointer-events: none;
+}
+
+.quick-links .carousel-arrows button {
+  --size: 48px;
+
+  position: absolute;
+  top: 50%;
+  width: var(--size);
+  height: var(--size);
+  display: grid;
+  place-items: center;
+  background: #fff;
+  color: var(--fg);
+  border: 4px solid var(--gray-930);
+  border-radius: 9999px;
+  opacity: 0;
+  transform: translateY(-50%);
+  z-index: 10;
+  font-size: 24px;
+  transition: opacity 0.15s;
+}
+
+.quick-links .carousel-arrows button:focus-visible {
+  opacity: 1;
+}
+
+.quick-links .carousel-arrows .prev {
+  inset-inline-start: 8px;
+}
+
+.quick-links .carousel-arrows .next {
+  inset-inline-end: 8px;
+}
+
+.quick-links .carousel-arrows svg {
+  width: 1em;
+  height: 1em;
+}
+
+.quick-links .carousel-arrows path {
+  stroke-width: 4;
+}
+
+@media (width >= 840px) {
+  .quick-links {
+    padding-block: 40px;
+  }
+
+  .quick-links .wrap {
+    gap: 16px;
+  }
+
+  .quick-links .quick-links-row {
+    gap: 24px;
+  }
+
+  .quick-links .quick-links-item figcaption {
+    margin-top: 12px;
+    font-size: 16px;
+  }
+
+  .quick-links .carousel-arrows {
+    height: 144px;
+  }
+}
+
+@media (width >= 1024px) {
+  .quick-links {
+    display: none;
+  }
+}

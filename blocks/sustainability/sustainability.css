@@ -1,0 +1,225 @@
+/* sustainability — lifted from stardust/prototypes/en-us.css (sustainability band) + canon.css
+ * std-cards--peek, scoped to the block. */
+.sustainability {
+  padding-top: var(--s40-64);
+  padding-bottom: var(--s40-80);
+  background: var(--green-dark);
+  color: #fff;
+}
+
+.sustainability .sustain-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--col-count), minmax(0, 1fr));
+  gap: var(--gutter);
+  padding-bottom: 32px;
+}
+
+.sustainability .sustain-intro {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sustainability .sustain-intro :is(h1, h2, h3, h4) {
+  font: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin: 0;
+}
+
+.sustainability .sustain-text p {
+  margin: 0;
+}
+
+.sustainability .sustain-cta,
+.sustainability .sustain-cta p {
+  display: contents;
+}
+
+.sustainability .sustain-cta a {
+  margin-block: 16px;
+}
+
+.sustainability .std-cards {
+  overflow-x: hidden;
+}
+
+.sustainability .std-cards-track {
+  position: relative;
+}
+
+@media (width >= 600px) {
+  .sustainability .sustain-intro {
+    grid-column: span 6 / span 6;
+  }
+}
+
+@media (width >= 840px) {
+  .sustainability .sustain-intro {
+    grid-column: 3 / span 4;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (width >= 1024px) {
+  .sustainability .sustain-intro {
+    grid-column: 4 / span 6;
+  }
+}
+
+.sustainability .std-cards-grid {
+  display: grid;
+  grid-auto-flow: column;
+  gap: var(--gutter);
+  position: relative;
+  grid-auto-columns: calc(76.9231% - 3.6923px);
+  transition: transform 0.3s ease;
+}
+
+.sustainability .std-card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 12px;
+  width: 100%;
+  aspect-ratio: 242 / 348;
+  color: var(--fg);
+}
+
+.sustainability .std-card-content {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.sustainability .std-card-heading {
+  font-size: var(--h2-size);
+  line-height: var(--h2-lh);
+  letter-spacing: var(--h2-ls);
+  font-weight: 700;
+  text-wrap: balance;
+}
+
+.sustainability .std-card-heading :is(h1, h2, h3, h4) {
+  font: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin: 0;
+}
+
+.sustainability .std-card-label {
+  padding-top: 8px;
+  font-size: 24px;
+}
+
+.sustainability .std-card :is(.media-m, .media-d, .media-all) img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.sustainability .std-card .media-d {
+  display: none;
+}
+
+/* carousel arrows (present below lg, invisible at rest: opacity 0 until focus) */
+.sustainability .carousel-arrows {
+  position: absolute;
+  inset: 0;
+  margin-inline: calc(var(--grid-margin) * -1);
+  pointer-events: none;
+}
+
+.sustainability .carousel-arrows button {
+  --size: 48px;
+
+  position: absolute;
+  top: 50%;
+  width: var(--size);
+  height: var(--size);
+  display: grid;
+  place-items: center;
+  background: #fff;
+  color: var(--fg);
+  border: 4px solid var(--gray-930);
+  border-radius: 9999px;
+  opacity: 0;
+  transform: translateY(-50%);
+  z-index: 10;
+  font-size: 24px;
+  transition: opacity 0.15s;
+}
+
+.sustainability .carousel-arrows button:focus-visible {
+  opacity: 1;
+}
+
+.sustainability .carousel-arrows .prev {
+  inset-inline-start: 8px;
+}
+
+.sustainability .carousel-arrows .next {
+  inset-inline-end: 8px;
+}
+
+.sustainability .carousel-arrows svg {
+  width: 1em;
+  height: 1em;
+}
+
+.sustainability .carousel-arrows path {
+  stroke-width: 4;
+}
+
+@media (width >= 1024px) {
+  .sustainability .std-cards-grid {
+    grid-auto-columns: calc(31.25% - 16.5px);
+    row-gap: 128px;
+    transition: none;
+    transform: none;
+  }
+
+  .sustainability .std-card {
+    aspect-ratio: 4 / 5;
+  }
+
+  .sustainability .std-card-content {
+    gap: 12px;
+    padding: 40px;
+  }
+
+  .sustainability .std-card-label {
+    padding-top: 12px;
+    font-size: 28px;
+  }
+
+  .sustainability .std-card .media-m {
+    display: none;
+  }
+
+  .sustainability .std-card .media-d {
+    display: block;
+  }
+
+  .sustainability .carousel-arrows {
+    display: none;
+  }
+}
+
+/* every sustainability card is the dark variant */
+.sustainability .std-cards .std-card {
+  color: #fff;
+}

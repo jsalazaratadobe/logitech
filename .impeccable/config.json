@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "stardust/.work/lift/en-us.src.html"
+        ],
+        "createdAt": "2026-11-02T19:53:12.219Z",
+        "reason": "replica run: file is a working copy of the live logitech.com/en-us markup; the empty inconsistency register forbids design deltas, so the type scale must match the source"
+      }
+    ]
+  }
+}

@@ -1,0 +1,327 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-02T20:56:34.510Z",
+ "source": "https://www.logitech.com/en-us",
+ "build": "https://main--73326f3f--aemcoder.aem.live/en-us",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 4,
+  "warn": 34,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "link-missing@390 Logitech G",
+   "width": 390,
+   "path": "Logitech G",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us not in the build header"
+  },
+  {
+   "key": "link-missing@390 Business",
+   "width": 390,
+   "path": "Business",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/business not in the build header"
+  },
+  {
+   "key": "link-missing@390 Education",
+   "width": 390,
+   "path": "Education",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/education not in the build header"
+  },
+  {
+   "key": "link-missing@390 Outlet",
+   "width": 390,
+   "path": "Outlet",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop/outlet not in the build header"
+  },
+  {
+   "key": "link-missing@390 Support",
+   "width": 390,
+   "path": "Support",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /hc/en-us not in the build header"
+  },
+  {
+   "key": "link-missing@390 US,en",
+   "width": 390,
+   "path": "US,en",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/change-location not in the build header"
+  },
+  {
+   "key": "link-missing@390 Shop",
+   "width": 390,
+   "path": "Shop",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop not in the build header"
+  },
+  {
+   "key": "link-missing@390 Mice",
+   "width": 390,
+   "path": "Mice",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop/c/mice not in the build header"
+  },
+  {
+   "key": "link-missing@390 Keyboards",
+   "width": 390,
+   "path": "Keyboards",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop/c/keyboards not in the build header"
+  },
+  {
+   "key": "link-missing@390 Combos",
+   "width": 390,
+   "path": "Combos",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop/c/combos not in the build header"
+  },
+  {
+   "key": "link-missing@390 Webcams",
+   "width": 390,
+   "path": "Webcams",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop/c/webcams not in the build header"
+  },
+  {
+   "key": "link-missing@390 iPad Keyboard Cases",
+   "width": 390,
+   "path": "iPad Keyboard Cases",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop/c/ipad-keyboards not in the build header"
+  },
+  {
+   "key": "link-missing@390 Gaming",
+   "width": 390,
+   "path": "Gaming",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us not in the build header"
+  },
+  {
+   "key": "link-missing@390 Headsets",
+   "width": 390,
+   "path": "Headsets",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop/c/headsets not in the build header"
+  },
+  {
+   "key": "link-missing@390 Microphones",
+   "width": 390,
+   "path": "Microphones",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop/c/microphones not in the build header"
+  },
+  {
+   "key": "link-missing@390 Speakers",
+   "width": 390,
+   "path": "Speakers",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop/c/speakers not in the build header"
+  },
+  {
+   "key": "link-missing@390 Digital Pens",
+   "width": 390,
+   "path": "Digital Pens",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop/c/digital-pens not in the build header"
+  },
+  {
+   "key": "link-missing@390 Presenters",
+   "width": 390,
+   "path": "Presenters",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop/c/presenters not in the build header"
+  },
+  {
+   "key": "link-missing@390 Mouse Pads",
+   "width": 390,
+   "path": "Mouse Pads",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop/c/gaming-mouse-pads not in the build header"
+  },
+  {
+   "key": "link-missing@390 Refurbished Products",
+   "width": 390,
+   "path": "Refurbished Products",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop/c/certified-refurb not in the build header"
+  },
+  {
+   "key": "link-missing@390 Accessories",
+   "width": 390,
+   "path": "Accessories",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop/c/accessories not in the build header"
+  },
+  {
+   "key": "link-missing@390 Best Sellers",
+   "width": 390,
+   "path": "Best Sellers",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop/c/best-sellers not in the build header"
+  },
+  {
+   "key": "link-missing@390 MX Series MX Series",
+   "width": 390,
+   "path": "MX Series MX Series",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/discover/c/master-series not in the build header"
+  },
+  {
+   "key": "link-missing@390 Ergo Series Ergo Series",
+   "width": 390,
+   "path": "Ergo Series Ergo Series",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/discover/c/ergo-series not in the build header"
+  },
+  {
+   "key": "link-missing@390 For Mac For Mac",
+   "width": 390,
+   "path": "For Mac For Mac",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/discover/c/for-mac not in the build header"
+  },
+  {
+   "key": "link-missing@390 For iPad For iPad",
+   "width": 390,
+   "path": "For iPad For iPad",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/discover/c/for-ipad not in the build header"
+  },
+  {
+   "key": "link-missing@390 MX for Creatives",
+   "width": 390,
+   "path": "MX for Creatives",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/discover/c/mx-creatives not in the build header"
+  },
+  {
+   "key": "link-missing@390 MX for Coders",
+   "width": 390,
+   "path": "MX for Coders",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/discover/c/mx-coders not in the build header"
+  },
+  {
+   "key": "link-missing@390 On The Go",
+   "width": 390,
+   "path": "On The Go",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /mobility/mobile-solutions not in the build header"
+  },
+  {
+   "key": "link-missing@390 Ultimate Ears",
+   "width": 390,
+   "path": "Ultimate Ears",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/discover/c/ultimate-ears not in the build header"
+  },
+  {
+   "key": "link-missing@390 For Business",
+   "width": 390,
+   "path": "For Business",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /business not in the build header"
+  },
+  {
+   "key": "link-missing@390 Software",
+   "width": 390,
+   "path": "Software",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/software not in the build header"
+  },
+  {
+   "key": "link-missing@390 Deals",
+   "width": 390,
+   "path": "Deals",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/shop/deals not in the build header"
+  },
+  {
+   "key": "link-missing@390 Planet",
+   "width": 390,
+   "path": "Planet",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link /en-us/planet-and-people/everything-matters not in the build header"
+  },
+  {
+   "key": "scroll-state@390 (header) [top]",
+   "width": 390,
+   "path": "(header)",
+   "action": "top",
+   "id": "scroll-state",
+   "severity": "error",
+   "detail": "scrolled top: the source header is static and in view, the build's pinned and in view"
+  },
+  {
+   "key": "scroll-state@390 (header) [down]",
+   "width": 390,
+   "path": "(header)",
+   "action": "down",
+   "id": "scroll-state",
+   "severity": "error",
+   "detail": "scrolled down: the source header is static and out of view, the build's pinned and out of view"
+  },
+  {
+   "key": "scroll-state@390 (header) [up]",
+   "width": 390,
+   "path": "(header)",
+   "action": "up",
+   "id": "scroll-state",
+   "severity": "error",
+   "detail": "scrolled up: the source header is static and in view, the build's pinned and in view"
+  },
+  {
+   "key": "scroll-state@390 (header) [back]",
+   "width": 390,
+   "path": "(header)",
+   "action": "back",
+   "id": "scroll-state",
+   "severity": "error",
+   "detail": "scrolled back: the source header is static and in view, the build's pinned and in view"
+  }
+ ]
+}

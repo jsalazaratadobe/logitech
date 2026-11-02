@@ -1,0 +1,72 @@
+{
+  "generatedAt": "2026-11-02T21:49:32.339Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.logitech.com/en-us",
+    "liveHost": "main--73326f3f--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 1,
+    "prototyped": 1,
+    "deployed": 1,
+    "optimised": 1
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 0,
+    "optimised": 1
+  },
+  "pages": [
+    {
+      "slug": "en-us",
+      "path": "/en-us",
+      "stage": "optimised",
+      "templateId": "en-us",
+      "isTemplate": true,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "en-us",
+      "archetype": "en-us",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    }
+  ],
+  "blocks": {
+    "total": 8,
+    "converted": 8
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      90,
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {},
+    "byAutofix": {}
+  }
+}

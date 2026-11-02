@@ -1,0 +1,115 @@
+{
+  "extensions": {
+    "breakpoints": {
+      "containerMaxWidth": "1568px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1568,
+          "via": "max-width",
+          "selector": "section.background-banner.bg-image > div.inner.svelte-rzyt13 > div.background.relative > div.max-width-padding.py-10",
+          "pages": [
+            "https://www.logitech.com/en-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 586,
+          "via": "other",
+          "selector": "div.editorial-card.flex-shrink-0 > div.relative.rounded > a.contents.group > picture.svelte-1ntpars.lg",
+          "pages": [
+            "https://www.logitech.com/en-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 464,
+          "via": "other",
+          "selector": "div.editorial-card.flex-shrink-0 > div.relative.rounded > a.contents.group > picture.svelte-1ntpars.lg",
+          "pages": [
+            "https://www.logitech.com/en-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 342,
+          "via": "other",
+          "selector": "div.editorial-card.flex-shrink-0 > div.relative.rounded > a.contents.group > picture.svelte-1ntpars.lg",
+          "pages": [
+            "https://www.logitech.com/en-us"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 309,
+          "via": "fixed",
+          "selector": "#sustainability > div.max-width-padding.grid > div.col-span-full.flex > h2.heading4",
+          "pages": [
+            "https://www.logitech.com/en-us"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.logitech.com/en-us",
+          "section": 0,
+          "selector": "#main-content > section.background-banner.bg-image",
+          "px": 1568
+        },
+        {
+          "url": "https://www.logitech.com/en-us",
+          "section": 1,
+          "selector": "#main-content > section.background-banner.bg-image",
+          "px": 1568
+        },
+        {
+          "url": "https://www.logitech.com/en-us",
+          "section": 2,
+          "selector": "#main-content > section.editorial-cards.relative",
+          "px": 1568
+        },
+        {
+          "url": "https://www.logitech.com/en-us",
+          "section": 3,
+          "selector": "#main-content > section.standard-cards.overflow-x-hidden",
+          "px": 1568
+        },
+        {
+          "url": "https://www.logitech.com/en-us",
+          "section": 4,
+          "selector": "#main-content > div.experience-fragment",
+          "px": 1568
+        },
+        {
+          "url": "https://www.logitech.com/en-us",
+          "section": 5,
+          "selector": "#blade-category-cards",
+          "px": 1568
+        },
+        {
+          "url": "https://www.logitech.com/en-us",
+          "section": 6,
+          "selector": "#main-content > section.standard-cards.overflow-x-hidden",
+          "px": 1568
+        },
+        {
+          "url": "https://www.logitech.com/en-us",
+          "section": 7,
+          "selector": "#main-content > div.experience-fragment",
+          "px": 1568
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-02T19:13:35.057Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.logitech.com/en-us"
+        ]
+      }
+    }
+  }
+}

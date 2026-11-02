@@ -1,0 +1,40 @@
+/* legal — canon.css .legal-statement, scoped to the block. */
+.legal {
+  background: #fff;
+  color: var(--fg);
+}
+
+.legal .wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-block: 20px;
+}
+
+.legal :is(h2, h3, h4, h5, h6) {
+  font-size: 16px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.legal p {
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: -0.03em;
+}
+
+.legal a {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+@media (width >= 840px) {
+  .legal .wrap {
+    gap: 12px;
+    padding-block: 40px;
+  }
+
+  .legal :is(h2, h3, h4, h5, h6) {
+    line-height: 1.1;
+  }
+}

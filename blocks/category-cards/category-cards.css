@@ -1,0 +1,160 @@
+/* category-cards — lifted from stardust/prototypes/en-us.css (category cards), scoped. */
+.category-cards {
+  overflow-x: hidden;
+  color: var(--fg);
+}
+
+.category-cards .categories-wrap {
+  margin-block: var(--s40-80);
+}
+
+.category-cards .categories-title {
+  margin-bottom: 20px;
+  color: var(--fg);
+}
+
+.category-cards .categories-title :is(h1, h2, h3) {
+  font: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin: 0;
+}
+
+.category-cards .categories-track {
+  position: relative;
+}
+
+.category-cards .categories-grid {
+  --cols: 2.2;
+
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(2, auto);
+  gap: var(--gutter);
+  grid-auto-columns: calc(100% / var(--cols) - var(--gutter) * (var(--cols) - 1) / var(--cols));
+  transition: transform 0.3s ease;
+}
+
+.category-cards .cat-card {
+  display: block;
+}
+
+.category-cards .cat-card-media {
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--gray-930);
+}
+
+.category-cards .cat-card-img {
+  aspect-ratio: 1 / 1;
+}
+
+/* the scale sits on the picture (the delivered media box) so box and image measure as the source img */
+.category-cards .cat-card-img picture {
+  width: 100%;
+  height: 100%;
+  transform: scale(0.75);
+  transition: transform 0.4s ease;
+}
+
+.category-cards .cat-card-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.category-cards .cat-card-label {
+  height: 66px;
+  padding: 12px;
+}
+
+.category-cards .cat-card-label :is(p, h2, h3, h4) {
+  margin: 0;
+  text-align: center;
+  font-size: 16px;
+  line-height: var(--body-lh);
+  letter-spacing: -0.03em;
+}
+
+/* carousel arrows (present below lg, invisible at rest: opacity 0 until focus) */
+.category-cards .carousel-arrows {
+  position: absolute;
+  inset: 0;
+  margin-inline: calc(var(--grid-margin) * -1);
+  pointer-events: none;
+}
+
+.category-cards .carousel-arrows button {
+  --size: 48px;
+
+  position: absolute;
+  top: 50%;
+  width: var(--size);
+  height: var(--size);
+  display: grid;
+  place-items: center;
+  background: #fff;
+  color: var(--fg);
+  border: 4px solid var(--gray-930);
+  border-radius: 9999px;
+  opacity: 0;
+  transform: translateY(-50%);
+  z-index: 10;
+  font-size: 24px;
+  transition: opacity 0.15s;
+}
+
+.category-cards .carousel-arrows button:focus-visible {
+  opacity: 1;
+}
+
+.category-cards .carousel-arrows .prev {
+  inset-inline-start: 8px;
+}
+
+.category-cards .carousel-arrows .next {
+  inset-inline-end: 8px;
+}
+
+.category-cards .carousel-arrows svg {
+  width: 1em;
+  height: 1em;
+}
+
+.category-cards .carousel-arrows path {
+  stroke-width: 4;
+}
+
+@media (width >= 600px) {
+  .category-cards .categories-grid {
+    --cols: 3.2;
+  }
+}
+
+@media (width >= 840px) {
+  .category-cards .categories-grid {
+    --cols: 4;
+  }
+
+  .category-cards .categories-title {
+    margin-bottom: 40px;
+  }
+}
+
+@media (width >= 1024px) {
+  .category-cards .categories-grid {
+    --cols: 5;
+
+    transition: none;
+    transform: none;
+  }
+
+  .category-cards .carousel-arrows {
+    display: none;
+  }
+}
+
+@media (width >= 1240px) {
+  .category-cards .categories-grid {
+    --cols: 6;
+  }
+}

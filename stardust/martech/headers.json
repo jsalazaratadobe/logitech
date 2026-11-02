@@ -1,0 +1,15 @@
+{
+ "cache-control": "public, max-age=300",
+ "permissions-policy": "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+ "referrer-policy": "strict-origin-when-cross-origin",
+ "server": "Vercel",
+ "strict-transport-security": "max-age=63072000; includeSubDomains; preload",
+ "via": "1.1 ff6f775130876a90bb15705dd183ba98.cloudfront.net (CloudFront)",
+ "x-amz-cf-pop": "LAX54-P10",
+ "x-cache": "Hit from cloudfront",
+ "x-content-type-options": "nosniff",
+ "x-frame-options": "DENY",
+ "x-sveltekit-page": "true",
+ "x-vercel-cache": "HIT",
+ "x-vercel-id": "sfo1::iad1::krbvf-1793647024089-8b87e841cd50"
+}

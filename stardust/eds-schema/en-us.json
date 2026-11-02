@@ -1,0 +1,689 @@
+{
+ "source": "http://localhost:8791/en-us-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "quick-links",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Mice",
+     "href": "/en-us/discover/c/mice"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Keyboards",
+     "href": "/en-us/discover/c/keyboards"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Tablet Keyboard Cases",
+     "href": "/en-us/shop/c/ipad-keyboards"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Gaming",
+     "href": "https://www.logitechg.com/en-us"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Deals",
+     "href": "/en-us/shop/deals"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Webcams",
+     "href": "/en-us/shop/c/webcams"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Combos",
+     "href": "/en-us/shop/c/combos"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Ultimate Ears",
+     "href": "/en-us/discover/c/ultimate-ears"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Headsets",
+     "href": "/en-us/shop/c/headsets"
+    }
+   ],
+   "imgCount": 9,
+   "editableTexts": 0,
+   "repeats": [
+    {
+     "unitSelector": "A.quick-links__item",
+     "count": 9,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "banner",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Limited Edition Drop"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "MX Master 4 Developer Edition"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Limited Edition Drop"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "MX Master 4 Developer Edition"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Celebrating developers, power users, and creators who build the future. A limited edition featuring MX Master signature precision and custom terminal-inspired details."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "BUY NOW",
+     "href": "/en-us/shop/p/mx-master-4-special-edition"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Celebrating developers, power users, and creators who build the future. A limited edition featuring MX Master signature precision and custom terminal-inspired details."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "BUY NOW",
+     "href": "/en-us/shop/p/mx-master-4-special-edition"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.wrap",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "banner",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Holiday head start"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Unlock Early Holiday Deals"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Shop early savings on keyboards, mice, webcams, headsets, and more. Get a head start on upgrades for everyone on your list."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "$100 off $400 $70 off $250 $30 off $120"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Limited time offer."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Terms apply.**",
+     "href": "https://www.logitech.com/en-us/shop/deals#terms"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "SHOP EARLY DEALS",
+     "href": "/en-us/shop/deals"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "SHOP GIFTS",
+     "href": "/en-us/campaigns/gift-guide"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Holiday head start"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Unlock Early Holiday Deals"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Shop early savings on keyboards, mice, webcams, headsets, and more. Get a head start on upgrades for everyone on your list."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "$100 off $400 $70 off $250 $30 off $120"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Limited time offer."
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Terms apply.**",
+     "href": "https://www.logitech.com/en-us/shop/deals#terms"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "SHOP EARLY DEALS",
+     "href": "/en-us/shop/deals"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "SHOP GIFTS",
+     "href": "/en-us/campaigns/gift-guide"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "editorial",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Transform Your Desk with Wave Keys + Lift"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Elevate comfort with Wave Keys + Lift, designed for better wrist and forearm posture. For a limited time, get a Studio Desk Mat FREE with your purchase."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "SHOP NOW",
+     "href": "/en-us/shop/p/wave-keys-and-lift-combo"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Shop MX Keypad & Save up to $100"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Save up to $100 when you bundle the MX Keypad with select workspace products."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "SHOP NOW",
+     "href": "/en-us/campaigns/mx-master-4-product-ecosystem"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Limited Edition Drop"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Celebrating developers, power users, and creators who build the future. A limited edition featuring MX Master signature precision and custom terminal-inspired details."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "SHOP NOW",
+     "href": "/en-us/shop/p/mx-master-4-special-edition"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Shop MX Master 4 & Save On Your Ultimate Setup"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Save up to $100 when you bundle the MX Master 4 with select workspace products."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "SHOP NOW",
+     "href": "/en-us/campaigns/mx-master-4-product-ecosystem"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Designed to Belong"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Color-matched gear for MacBook Neo laptops."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "SHOP NOW",
+     "href": "/en-us/discover/c/macbook-neo-accessories"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 10,
+   "repeats": [
+    {
+     "unitSelector": "DIV.ed-card",
+     "count": 5,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "std-cards",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Discover our most popular product categories"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Keyboards"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Mice"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Webcams"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "A.std-card",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "sustain",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Design for sustainability"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Everything matters"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "When it comes to doing better for our planet, it’s on us. Every component. Every process. Every product."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "LEARN ABOUT OUR COMMITMENT",
+     "href": "/en-us/planet-and-people/everything-matters"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Labels matters"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Doing better matters"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Working together matters"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "A.std-card",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "categories",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Shop by product category"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Keyboards",
+     "href": "/en-us/shop/c/keyboards"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Combos",
+     "href": "/en-us/shop/c/combos"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Mice",
+     "href": "/en-us/shop/c/mice"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Speakers",
+     "href": "/en-us/shop/c/speakers"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Conference Cameras",
+     "href": "/en-us/shop/c/conference-cameras"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Driving",
+     "href": "/en-us/shop/c/driving"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Headsets",
+     "href": "/en-us/shop/c/headsets"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Lighting",
+     "href": "/en-us/shop/c/cameras-lighting"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Webcams",
+     "href": "/en-us/shop/c/webcams"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Microphones",
+     "href": "/en-us/shop/c/microphones"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "iPad Keyboard Cases",
+     "href": "/en-us/shop/c/ipad-keyboards"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Refurbished Products",
+     "href": "/en-us/shop/c/certified-refurb"
+    }
+   ],
+   "imgCount": 12,
+   "editableTexts": 13,
+   "repeats": [
+    {
+     "unitSelector": "A.cat-card",
+     "count": 12,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "std-cards",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Shop by interest"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Business"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Gaming"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Education"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "A.std-card",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "reasons",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Reasons to buy from Logitech.com"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "We're all about making your shopping experience seamless. Shop direct and enjoy perks like free shipping, multiple payment options, easy returns, and access to exclusive offers only on logitech.com."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Buy now, pay later"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Pay at your own pace with Klarna payment plans. Get what you love, choose how you pay."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Free shipping"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Enjoy free standard shipping on all orders."
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Students and Heroes get 20% Off"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Students and Heroes can benefit from a 20% discount on Logitech products. It couldn’t be easier."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "GET VERIFIED",
+     "href": "/en-us/programs/sheer-id"
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Money-back guarantee"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Shop risk-free with our easy returns and 30-day money back guarantee."
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "24/7 customer service"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "We're here for you whenever you need. Reach us via chat, phone, or email for your convenience."
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Exclusive offers"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Unlock exclusive gifts when you purchase select products. Sign up for emails to stay up-to-date on offers."
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 14,
+   "repeats": [
+    {
+     "unitSelector": "DIV.reason",
+     "count": 6,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

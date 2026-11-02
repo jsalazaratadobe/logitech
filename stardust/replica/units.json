@@ -1,0 +1,62 @@
+{
+  "en-us-editorial-card": {
+    "origin": "#main-content .editorial-cards .editorial-card",
+    "build": "#main-content .editorial .ed-card, main .editorial-cards .ed-card",
+    "n": 5,
+    "required": true,
+    "pages": [
+      "en-us"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "en-us-standard-card": {
+    "origin": "#main-content > section.standard-cards a.standard-card",
+    "build": "#main-content > section.std-cards a.std-card, main .standard-cards a.std-card",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en-us"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "en-us-sustain-card": {
+    "origin": "#sustainability a.standard-card",
+    "build": "#sustainability a.std-card, main .sustainability .std-card",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "en-us"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "en-us-category-card": {
+    "origin": "#blade-category-cards a.block",
+    "build": "#blade-category-cards a.cat-card, main .category-cards a.cat-card",
+    "n": 12,
+    "required": true,
+    "pages": [
+      "en-us"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "en-us-reason": {
+    "origin": "#blade-reasons-to-buy .grid.grid-cols-2 > div",
+    "build": "#blade-reasons-to-buy .reason, main .reasons .reason",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "en-us"
+    ],
+    "templates": [
+      "landing"
+    ]
+  }
+}

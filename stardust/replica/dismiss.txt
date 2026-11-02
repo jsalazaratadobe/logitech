@@ -1,0 +1,1 @@
+#onetrust-accept-btn-handler,.modal .modal-close-button

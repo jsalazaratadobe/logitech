@@ -1,0 +1,131 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-02T21:45:17.065Z",
+  "origin": "https://main--73326f3f--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "Tealium tag stack (utag.js) and every tag it injects",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (2 gated · 1 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6278,
+   "environmentLimit": null
+  },
+  {
+   "feature": "OneTrust CMP (C0001–C0005)",
+   "id": "consent-onetrust",
+   "class": "T",
+   "status": "scaffolded-awaiting-owner",
+   "type": "consent-gate",
+   "pass": true,
+   "detail": "no request to 2 gated host pattern(s) before consent",
+   "thirdParty": "www.logitech.com:200×2",
+   "ms": 6139,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Footer email subscription form",
+   "id": "newsletter-subscribe",
+   "class": "F",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × #footer-bar-email-subscription-form input[type=email] (min 1)",
+   "thirdParty": "www.logitech.com:200×2",
+   "ms": 2068,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Header Shop mega panel (hover / keyboard) and mobile navigation drawer",
+   "id": "chrome-menus",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "24 × header #desktop-nav-panel-0 a (min 20)",
+   "thirdParty": "www.logitech.com:200×2",
+   "ms": 2172,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Header Shop mega panel (hover / keyboard) and mobile navigation drawer",
+   "id": "chrome-menus",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × header button.menu-btn[aria-expanded] (min 1)",
+   "thirdParty": "www.logitech.com:200×2",
+   "ms": 2312,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Sign-in / account / cart (SFCC)",
+   "id": "account-cart",
+   "class": "X",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "5 × header .tool-items > li (min 4)",
+   "thirdParty": "www.logitech.com:200×2",
+   "ms": 2173,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Locale selector",
+   "id": "locale-selector",
+   "class": "I18N",
+   "status": "interim",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "2 × a[href*='change-location'] (min 1)",
+   "thirdParty": "www.logitech.com:200×2",
+   "ms": 2095,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Client framework hydration; hero/banner videos autoplay",
+   "id": "sveltekit-hydration",
+   "class": "CR",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 2 page(s)",
+   "thirdParty": "",
+   "ms": 4405,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Client framework hydration; hero/banner videos autoplay",
+   "id": "sveltekit-hydration",
+   "class": "CR",
+   "status": "done",
+   "type": "video-plays",
+   "pass": true,
+   "detail": "iframe/video: false · video playing (Δt 0.81s)",
+   "thirdParty": "www.logitech.com:200×2",
+   "ms": 7475,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (2 gated · 1 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6205,
+   "environmentLimit": null
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+/* reasons — lifted from stardust/prototypes/en-us.css (reasons to buy), scoped. */
+.reasons {
+  margin-block: var(--s40-80);
+  color: var(--fg);
+}
+
+.reasons .reasons-grid {
+  position: relative;
+  display: grid;
+  gap: var(--gutter);
+}
+
+.reasons .reasons-title :is(h1, h2, h3) {
+  font: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin: 0;
+}
+
+.reasons .reasons-lead {
+  margin-top: 18px;
+  color: var(--gray-360);
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.03em;
+}
+
+.reasons .reasons-lead p {
+  margin: 0;
+}
+
+.reasons .reasons-items {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 40px 24px;
+}
+
+.reasons .reason-icon img {
+  height: 35px;
+  width: auto;
+}
+
+.reasons .reason-title {
+  margin-block: 8px;
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: -0.03em;
+  font-weight: 700;
+}
+
+.reasons .reason-title :is(h2, h3, h4) {
+  font: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+}
+
+.reasons .reason-text {
+  color: var(--gray-360);
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.03em;
+}
+
+/* dash CTA (canon .cta-dash, display block, uppercase); the anchor's end padding replaces the
+   source's inner <span> padding */
+.reasons .reason-cta {
+  margin-top: 18px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.reasons .reason-cta a {
+  display: block;
+  border-radius: 9999px;
+  padding-block: 8px;
+  padding-inline-end: calc(14px + var(--dash-w));
+  font-size: 14px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.reasons .reason-cta a::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: var(--dash-w);
+  height: 5px;
+  background-color: var(--brand);
+  transform: translate(14px, 0.35em);
+  transition: width 0.15s;
+}
+
+@media (width >= 600px) {
+  .reasons .reason-title {
+    margin-block: 12px;
+  }
+}
+
+@media (width >= 840px) {
+  .reasons .reason-cta a {
+    padding-block: 6px;
+  }
+}
+
+@media (width >= 1024px) {
+  .reasons .reasons-grid {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .reasons .reasons-intro {
+    grid-column: span 3 / span 3;
+  }
+
+  .reasons .reasons-lead,
+  .reasons .reason-text {
+    font-size: 16px;
+  }
+
+  .reasons .reasons-items {
+    grid-column: 5 / span 8;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    row-gap: 96px;
+  }
+
+  .reasons .reason {
+    grid-column: span 2 / span 2;
+  }
+
+  .reasons .reason:nth-child(3n+1) {
+    grid-column-start: 1;
+  }
+
+  .reasons .reason:nth-child(3n+2) {
+    grid-column-start: 4;
+  }
+
+  .reasons .reason:nth-child(3n) {
+    grid-column-start: 7;
+  }
+}

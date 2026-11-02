@@ -1,0 +1,118 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "en-us"
+      ],
+      "startedAt": "2026-11-02T20:01:32.531Z",
+      "pages": 0,
+      "blocks": 2,
+      "endedAt": "2026-11-02T20:21:36.507Z",
+      "gates": {
+        "360": {
+          "header": "0.00%",
+          "footer": "1.2% (subpixel AA)"
+        },
+        "1440": {
+          "header": "0.00% local vs prototype",
+          "footer": "0.7% (subpixel AA)"
+        },
+        "chrome": "header contract deferred to archetype unit (no delivered page yet)"
+      },
+      "verdict": "foundation: styles+fonts, header/footer blocks, nav/footer live (2/2), code 0d8283c synced, lint pass"
+    },
+    "archetype-en-us": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "en-us"
+      ],
+      "startedAt": "2026-11-02T20:21:47.483Z",
+      "pages": 1,
+      "blocks": 8,
+      "endedAt": "2026-11-02T20:58:43.638Z",
+      "gates": {
+        "360": {
+          "pixel": "0.61%",
+          "dh": 0,
+          "contentMain": "0🔴",
+          "clip": 0,
+          "overflow": "none"
+        },
+        "1440": {
+          "pixel": "1.28%",
+          "dh": 0,
+          "contentMain": "0🔴",
+          "clip": 0
+        },
+        "crop": "header 1.31%/1.12%, footer 0.15%/0.54%",
+        "chrome": "chrome roots 13/12 🔴 + header contract exit 2 (sticky header at 390, absolute nav hrefs) → foundation-requests.md, applied at C-final"
+      },
+      "verdict": "archetype en-us: live, 8 blocks, gate 1440 1.28% / 360 0.61% Δh 0, body 0🔴; chrome queued (1 request)"
+    },
+    "cluster-en-us": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "en-us"
+      ],
+      "pages": 0,
+      "blocks": 0,
+      "startedAt": "2026-11-02T20:58:43.638Z",
+      "endedAt": "2026-11-02T20:58:43.638Z",
+      "verdict": "cluster en-us: 0 siblings (one-page run) — nothing to render"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "gate-all",
+      "templates": [
+        "en-us"
+      ],
+      "startedAt": "2026-11-02T21:13:43.478Z",
+      "endedAt": "2026-11-02T21:20:22.888Z",
+      "pages": 1,
+      "gates": {
+        "360": {
+          "pixel": "0.63%",
+          "dh": 0,
+          "clip": 0,
+          "content": "0 missing/hidden",
+          "units": "pass"
+        },
+        "1440": {
+          "pixel": "0.5%",
+          "dh": 0,
+          "clip": 0,
+          "content": "0 missing/hidden",
+          "units": "pass"
+        }
+      },
+      "verdict": "gate-all: 1/1 PASS at 1440 (0.5%) and 360 (0.63%), Δh 0, clip 0, content 0, units pass; coverage gate recorded",
+      "note": "one-row --state stardust/rollout/gate-state.json (state.json has no deployed writer); unit-geometry origin cache is keyed by slug not width — cleared between widths"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "en-us"
+      ],
+      "startedAt": "2026-11-02T21:11:36.113Z",
+      "note": "freeze check clean; foundation request applied (header tool glyphs as source data URIs, Shop your way whole-card links; code 06f81d4 live); re-gating archetype pub4",
+      "endedAt": "2026-11-02T21:20:43.295Z",
+      "pages": 1,
+      "gates": {
+        "360": {
+          "pixel": "0.61% pub4",
+          "chromeContent": "8🔴 (granularity residuals, nothing lost)"
+        },
+        "1440": {
+          "pixel": "1.28% pub4",
+          "chromeContent": "8🔴 (granularity residuals, nothing lost)"
+        }
+      },
+      "verdict": "final: freeze check clean, 1 foundation request applied (header glyphs + Shop your way cards, code 06f81d4 live), archetype re-gated pub4, foundation re-frozen; residuals in foundation-requests.md"
+    }
+  }
+}

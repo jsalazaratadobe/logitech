@@ -1,0 +1,163 @@
+{
+  "_provenance": {
+    "writtenBy": "replica Phase 3+4 subagent (en-us)",
+    "writtenAt": "2026-11-02T19:56:28.351681Z"
+  },
+  "types": {
+    "landing": {
+      "pageType": "landing",
+      "archetype": "en-us",
+      "prototype": "stardust/prototypes/en-us-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/en-us.css"
+      ],
+      "js": [
+        "stardust/prototypes/canon.js",
+        "stardust/prototypes/en-us.js"
+      ],
+      "regime": "prototype",
+      "iterations": {
+        "1440": 4,
+        "360": 4
+      },
+      "iterationNotes": "iter1 --full map; iter2 pixel (parallax JS, chrome icons/data-URIs, ls %); iter3 --full confirmation; then one --full confirmation re-run (label final) after markup-only aria/unit-declaration fixes and one post-motion pixel round (label motion). 360 unit-geometry in round final measured a 1440-cached origin (unit-geometry origin cache stardust/current/measure/en-us-units.json is not width-keyed) \u2014 instrument-invalidated; gate-all 360 re-measured units PASS. iter4 (--full, both widths): coordinator correction \u2014 text-wrap: balance mirrored on the source heading classes (.h1\u2013.h5 + footer-bar title = live .heading1\u20136/.heading5-normal); 1440 iter4 unit-geometry read the 360-written origin cache (concurrent rounds share stardust/current/measure/en-us-units.json) \u2014 re-run alone with --force: 32 units PASS (gates/en-us-1440/units-iter4-rerun.json).",
+      "gates": {
+        "1440": {
+          "pixel": 0.51,
+          "heightDelta": 0,
+          "contentDiff": {
+            "red": 0,
+            "nothingLostYellow": 0,
+            "advisory": 38
+          },
+          "visualDiff": "1 advisory, justified: HEADING FACE \u00d730 (stack-name heuristic; both render Brown)",
+          "clipped": 0,
+          "overflow": "none (scrollWidth 1440)",
+          "units": "PASS 32 units (forced re-run)",
+          "chromeCrop": {
+            "header": 1.73,
+            "footer": 0.15
+          },
+          "evidence": "stardust/replica/gates/en-us-1440/verdict-iter4.json"
+        },
+        "360": {
+          "pixel": 0.64,
+          "heightDelta": 0,
+          "contentDiff": {
+            "red": 0,
+            "nothingLostYellow": 0,
+            "advisory": 15
+          },
+          "visualDiff": "2 advisory, justified: HEADING FACE \u00d730 (live stack \"Brown\", Roboto, \"Helvetica Neue\"\u2026 vs mandated Brown, \"Brown Logitech Pan\"\u2026 \u2014 both render Brown); IMAGE DID NOT LOAD macbook-neo 242 (lazy offscreen carousel card \u2014 live also 0\u00d70 at capture)",
+          "clipped": 0,
+          "overflow": "none (scrollWidth 360)",
+          "units": "PASS 20 units",
+          "chromeCrop": {
+            "header": 3.25,
+            "footer": 0.54
+          },
+          "evidence": "stardust/replica/gates/en-us-360/verdict-iter4.json"
+        }
+      },
+      "capProbe": "PASS at 2560 \u2014 0 of 9 rows failed (stardust/replica/gates/en-us-2560/cap-iter.json)",
+      "gateAll": {
+        "1440": "PASS 0.65% \u0394h0 units ok (stardust/replica/gates/prototypes-1440/summary.md)",
+        "360": "PASS 0.91% \u0394h0 units ok (stardust/replica/gates/prototypes-360/summary.md)",
+        "note": "run with --state stardust/.work/replica/state-proto.json (copy of state.json + prototypePath) \u2014 state.json untouched; main agent sets prototypePath via state.mjs advance"
+      },
+      "residuals": [
+        {
+          "region": "header toaster (y 0\u201340 @1440, 0\u201332 @360)",
+          "pct": "360 header crop 3.25%",
+          "cause": "nondeterministic: promo toaster rotates 4 messages every ~5 s from load (implemented, canon.js); live.png caught message 2, build capture message 1",
+          "permanent": true,
+          "flaggedFor": "user"
+        },
+        {
+          "region": "footer support ID",
+          "pct": "<0.1%",
+          "cause": "nondeterministic per-session Support ID string; frozen to captured b28fbad56283af78 (chrome-parity MISSING/EXTRA + \u0394x \u22122px)",
+          "permanent": true,
+          "flaggedFor": "user"
+        },
+        {
+          "region": "header ask-ai button @1440",
+          "pct": "within header 1.73%",
+          "cause": "live hydrates \"Ask Logitech\" late \u2014 absent in the cached live.png, present in chrome-parity/lift; prototype renders it",
+          "flaggedFor": "user"
+        },
+        {
+          "band": "hero video frames y 113\u20131338 @1440, 256\u20131481 @360",
+          "pct": "\u22642%",
+          "cause": "capture-state: autoplay video frame at freeze differs run to run",
+          "flaggedFor": "delivery"
+        },
+        {
+          "region": "third-party chat bubble (fixed, bottom-right)",
+          "cause": "yellowmessenger widget present on live captures, not part of the static prototype (martech/dynamics delivery)",
+          "flaggedFor": "delivery"
+        },
+        {
+          "region": "chrome-parity footer OFFSET",
+          "cause": "chrome-parity live side measured unsettled page (+70/+105px block offset); pixel gate \u0394h 0",
+          "flaggedFor": "user"
+        }
+      ],
+      "captureState": [
+        {
+          "what": "banner videos frozen at frame 0 by stitch-shot",
+          "where": "both background banners",
+          "restoreAtDelivery": "autoplay muted playsinline, single play (no loop), play/pause toggle button; control dot pulses until playing"
+        },
+        {
+          "what": "toaster held on first message in build capture",
+          "where": "header-top",
+          "restoreAtDelivery": "rotate 4 messages every 5 s, 0.5 s cross-fade (implemented)"
+        }
+      ],
+      "cssPortations": [],
+      "jsLog": [
+        "canon.js: sticky header hide-on-scroll-down / reveal-on-up (top transition 0.3s) + shadow-lg (drop at y<=30) \u2014 mirrors live headerTimeline/transitions",
+        "canon.js: promo toaster rotation",
+        "en-us.js: editorial-cards parallax (progress=(scrollY-(top-vh))/(vh+h), max 27.5/6.5/11.5/11.5/18.5\u00d712 px, \u22651024 only) \u2014 lifted from live sampling stardust/.work/lift/parallax-1440.txt",
+        "en-us.js: banner video play/pause toggle + loading pulse"
+      ],
+      "fonts": "Brown woff2 referenced from https://www.logitech.com/_app/fonts/ (ACAO *), not rehosted; stack Brown, \"Brown Logitech Pan\", BrownLogitechWebPan, Arial, sans-serif",
+      "assets": "harvested to stardust/current/assets/img (map stardust/current/assets/media.json); prototypes/assets is a symlink \u2192 ../current/assets; header icons are the live data-URI SVGs verbatim",
+      "motion": {
+        "observed": [
+          "header sticky wrapper top transition 0.3s (hide on scroll-down, reveal on scroll-up)",
+          "header shadow-lg on reveal, removed at y<=30",
+          "editorial-cards scroll parallax (translate3d per card)",
+          "banner video autoplay (JS-driven, single play) + play/pause control",
+          "control dot animate-pulse while video loads",
+          "promo toaster 4-message rotation ~5 s",
+          "carousel-disabled class on non-overflowing carousels",
+          "video opacity-0/opacity-100 + pointer-events-none class swap at load",
+          "html scroll-lock (timed email modal)"
+        ],
+        "implemented": [
+          "header hide/reveal + shadow-lg (motion-compare: top transition parity 300ms, shadow-lg parity)",
+          "editorial parallax",
+          "banner video autoplay once + toggle",
+          "animate-pulse loading state",
+          "toaster rotation"
+        ],
+        "dead": [
+          "all 10 hover families (btn-solid-brand, btn-outline-brand, cta-link-dash, standard-card, category card, editorial media, nav items, footer submit, footer links: no measured hover diff; ask-ai hover unobserved) \u2014 hover CSS removed from prototype"
+        ],
+        "notImplemented": [
+          "carousel-disabled (no-op state class on static rows)",
+          "video opacity-0/pointer-events-none swap \u2014 semantics ambiguous from one trace; poster/first frame paints identically",
+          "scroll-lock \u2014 belongs to the excluded timed email modal"
+        ],
+        "evidence": [
+          "stardust/replica/motion/en-us.json",
+          "stardust/replica/motion/en-us-build.json"
+        ]
+      },
+      "textWrap": "balance mirrored where live computes it (.heading1\u20136/.heading5-normal); breaks now match (pixel 0.66\u21920.51 @1440, 0.90\u21920.64 @360)"
+    }
+  }
+}

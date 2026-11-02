@@ -1,0 +1,116 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-02T19:19:34.511Z",
+  "input": "stardust/.work/martech-plan/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "www.logitech.com"
+ ],
+ "consent": {
+  "cmp": {
+   "vendor": "OneTrust",
+   "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+   "attrs": {
+    "data-domain-script": "a5d4a538-21e6-485f-9f0b-0bab76c31f5c"
+   },
+   "groups": "OnetrustActiveGroups",
+   "event": "OneTrustGroupsUpdated",
+   "viaTagManager": false,
+   "enabled": false
+  },
+  "model": "owner-decision",
+  "categories": [
+   {
+    "id": "C0001",
+    "name": "Strictly Necessary Cookies",
+    "status": "always active"
+   },
+   {
+    "id": "C0002",
+    "name": "Analytics Cookies",
+    "status": "active"
+   },
+   {
+    "id": "C0003",
+    "name": "Functional Cookies",
+    "status": "active"
+   },
+   {
+    "id": "C0004",
+    "name": "Marketing Cookies",
+    "status": "active"
+   },
+   {
+    "id": "C0005",
+    "name": "Social Media Cookies",
+    "status": "active"
+   }
+  ],
+  "ruleSets": 3,
+  "consentMode": null
+ },
+ "routes": [
+  {
+   "id": "tealium",
+   "vendor": "Tealium",
+   "src": "https://webtags.logitech.com/logi/prod/utag.js",
+   "boot": null,
+   "category": null,
+   "cmpGroups": [
+    "C0001"
+   ],
+   "enabled": false
+  }
+ ],
+ "otherTags": [
+  "analytics: Google Analytics / Ads",
+  "analytics: session replay",
+  "marketing: Marketo Munchkin",
+  "marketing: ad / retargeting pixel"
+ ],
+ "tagManagers": [
+  "Tealium"
+ ],
+ "dataLayers": [
+  "dataLayer",
+  "utag_data"
+ ],
+ "tagNotes": {
+  "Tealium": {
+   "rules": [
+    {
+     "name": "Per-tag load rules gated on OneTrust consent groups",
+     "paths": [],
+     "selectors": [],
+     "events": [],
+     "consentGroups": [
+      "C0002",
+      "C0003",
+      "C0004"
+     ],
+     "from": "webtags.logitech.com/logi/prod/utag.js utag.loader.cfg (offset ~223460) and utag.cond cases reading cp.OptanonConsent / js_page.OnetrustActiveGroups (offset ~49208)"
+    }
+   ],
+   "dataElements": [
+    {
+     "name": "utag_data (UDO)",
+     "selectors": [],
+     "source": "utag_data: page_name, page_type, page_category_name, site_locale, site_country, site_language, link_text, link_url …",
+     "from": "webtags.logitech.com/logi/prod/utag.js utag.loader.initdata (offset ~35768)"
+    }
+   ],
+   "notes": "Tealium profile logitech/logi/prod (ut4, build 202610292328) is self-hosted on webtags.logitech.com and injects the Google gtag/Ads/Floodlight, Meta, Reddit, Marketo, Quantum Metric, Bizible, ZoomInfo, Impact and Siteimprove tags; its load rules read the OneTrust cookie (`OptanonConsent` C0002/C0003/C0004), so consent gating already happens inside Tealium (per-tag). The migrated pages must set `utag_data` with the same keys before utag.js loads, or the owner remaps the UDO in Tealium."
+  }
+ },
+ "rewrite": {
+  "library": null,
+  "rules": [],
+  "dataElements": [],
+  "dataLayer": [],
+  "dataLayerPaths": []
+ },
+ "aemMartech": null,
+ "target": null
+}

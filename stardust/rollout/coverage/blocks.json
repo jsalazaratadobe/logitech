@@ -1,0 +1,173 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-02T20:00:51.309Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-02T21:49:11.339Z",
+  "blocks": [
+    {
+      "id": "banner",
+      "label": "banner",
+      "kind": "module",
+      "signature": "module:banner",
+      "source": null,
+      "usedByTemplates": [
+        "en-us"
+      ],
+      "usedByPages": [
+        "en-us"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "banner",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "category-cards",
+      "label": "category-cards",
+      "kind": "module",
+      "signature": "module:category-cards",
+      "source": null,
+      "usedByTemplates": [
+        "en-us"
+      ],
+      "usedByPages": [
+        "en-us"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "category-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "editorial-cards",
+      "label": "editorial-cards",
+      "kind": "module",
+      "signature": "module:editorial-cards",
+      "source": null,
+      "usedByTemplates": [
+        "en-us"
+      ],
+      "usedByPages": [
+        "en-us"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "editorial-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "legal",
+      "label": "legal",
+      "kind": "module",
+      "signature": "module:legal",
+      "source": null,
+      "usedByTemplates": [
+        "en-us"
+      ],
+      "usedByPages": [
+        "en-us"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "legal",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "quick-links",
+      "label": "quick-links",
+      "kind": "module",
+      "signature": "module:quick-links",
+      "source": null,
+      "usedByTemplates": [
+        "en-us"
+      ],
+      "usedByPages": [
+        "en-us"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "quick-links",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "reasons",
+      "label": "reasons",
+      "kind": "module",
+      "signature": "module:reasons",
+      "source": null,
+      "usedByTemplates": [
+        "en-us"
+      ],
+      "usedByPages": [
+        "en-us"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "reasons",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "standard-cards",
+      "label": "standard-cards",
+      "kind": "module",
+      "signature": "module:standard-cards",
+      "source": null,
+      "usedByTemplates": [
+        "en-us"
+      ],
+      "usedByPages": [
+        "en-us"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "standard-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "sustainability",
+      "label": "sustainability",
+      "kind": "module",
+      "signature": "module:sustainability",
+      "source": null,
+      "usedByTemplates": [
+        "en-us"
+      ],
+      "usedByPages": [
+        "en-us"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "sustainability",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

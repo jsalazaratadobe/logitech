@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-02T20:00:37.971Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.logitech.com/en-us",
+    "da": {
+      "org": "aemcoder",
+      "site": "73326f3f",
+      "ref": "main"
+    },
+    "liveHost": "main--73326f3f--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 1,
+    "discovered": 1,
+    "capped": false,
+    "pageCap": 1
+  },
+  "lastRun": {
+    "at": "2026-11-02T21:49:11.339Z",
+    "pages": {
+      "total": 1,
+      "verified": 1,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 8,
+      "converted": 8,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

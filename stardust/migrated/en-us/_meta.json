@@ -1,0 +1,537 @@
+{
+  "slug": "en-us",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "quick-links",
+    "banner",
+    "editorial-cards",
+    "standard-cards",
+    "sustainability",
+    "category-cards",
+    "reasons",
+    "legal"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "quick-links",
+    "banner",
+    "banner",
+    "editorial",
+    "std-cards",
+    "experience-fragment",
+    "categories",
+    "std-cards",
+    "experience-fragment",
+    "page-tail"
+  ],
+  "canonShas": {
+    "header": "0b612fe737af",
+    "footer": "15a2467a544c",
+    "css": "63c6c15d961b"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Logitech United States",
+    "description": "Discover the innovative world of Logitech and experience products, accessories, and software that extend the boundaries of your digital lifestyle.",
+    "canonical": null,
+    "lang": "en-US"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Logitech United States",
+    "description": "Discover the innovative world of Logitech and experience products, accessories, and software that extend the boundaries of your digital lifestyle.",
+    "url": "https://www.logitech.com/en-us"
+  },
+  "migratedAt": "2026-11-02T20:00:23Z",
+  "designMdSha": "7521fbd64191",
+  "designJsonSha": "bcb03f1b82e9",
+  "sourceCurrentSha": "fe75bdb158b6",
+  "sourceProposedSha": "7744754e2042",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 82,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/en-us/business.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/education.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/outlet",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/change-location",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/mice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/keyboards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/combos",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/webcams",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/ipad-keyboards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/headsets",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/microphones",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/speakers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/digital-pens",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/presenters",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/gaming-mouse-pads",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/certified-refurb",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/accessories",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/best-sellers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/discover/c/master-series",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/discover/c/ergo-series",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/discover/c/for-mac",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/discover/c/for-ipad",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/discover/c/mx-creatives",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/discover/c/mx-coders",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.logitech.com/mobility/mobile-solutions.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/discover/c/ultimate-ears",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.logitech.com/business.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/software",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/deals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/planet-and-people/everything-matters",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/cart",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/discover/c/mice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/discover/c/keyboards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/ipad-keyboards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/deals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/webcams",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/combos",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/discover/c/ultimate-ears",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/headsets",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/p/mx-master-4-special-edition",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/p/mx-master-4-special-edition",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.logitech.com/en-us/shop/deals#terms",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/deals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/campaigns/gift-guide",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.logitech.com/en-us/shop/deals#terms",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/deals",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/campaigns/gift-guide",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/p/wave-keys-and-lift-combo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/p/wave-keys-and-lift-combo",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/campaigns/mx-master-4-product-ecosystem",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/campaigns/mx-master-4-product-ecosystem",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/p/mx-master-4-special-edition",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/p/mx-master-4-special-edition",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/campaigns/mx-master-4-product-ecosystem",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/campaigns/mx-master-4-product-ecosystem",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/discover/c/macbook-neo-accessories",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/discover/c/macbook-neo-accessories",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/discover/c/keyboards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/discover/c/mice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/discover/c/webcams",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/planet-and-people/everything-matters",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/keyboards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/combos",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/mice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/speakers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/conference-cameras",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/driving",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/headsets",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/cameras-lighting",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/webcams",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/microphones",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/ipad-keyboards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/certified-refurb",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/business",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/education",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/programs/sheer-id",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.logitech.com/en-us/tos/trademark-guidelines.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.logitech.com/en-us/legal/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/change-location",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/about",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/careers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/discover/learning-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/sustainability",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/sustainability/recycling",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/accessibility",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/mice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/keyboards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/headsets",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/webcams",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/speakers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/ipad-keyboards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/gaming-mice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/gaming-keyboards",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/gaming-audio",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/c/microphones",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/mx/master-series",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/ergo/ergo-series",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/business",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/business/products",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/video-collaboration/services-and-software",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/business/partner-program",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/business/partners",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/business/resource-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/products/education",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/education/k12",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/education/education-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/programs/sheer-id",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/shop/spare-parts-store",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.logitech.com/order-status",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/my-account/order-faqs#returns-and-cancellations",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/software/logi-options-plus",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/change-location",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/tos/terms",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/legal/privacy-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/legal/cookie-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/en-us/sitemap",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "en-us/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "en-us/_meta.json",
+  "driverVersion": "1"
+}

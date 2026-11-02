@@ -1,0 +1,766 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.logitech.com/en-us",
+ "at": "2026-11-02T20:54:19.620Z",
+ "shots": "stardust/.work/chrome/header-source",
+ "widths": {
+  "390": {
+   "root": "body>div>div>div>div:nth-of-type(1)>header",
+   "controls": [
+    {
+     "name": "Unlock Early Holiday Deals | Up to $100 Off",
+     "key": "unlock early holiday deals up to 100 off",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(1)>div>div:nth-of-type(1)>div",
+     "expanded": "false",
+     "rect": [
+      8,
+      26,
+      374,
+      38
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Logitech G",
+     "key": "logitech g",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(1)>div>div:nth-of-type(2)>ul>li:nth-of-type(1)>a",
+     "href": "https://www.logitechg.com/en-us",
+     "expanded": null,
+     "rect": [
+      48,
+      80,
+      72,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Business",
+     "key": "business",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(1)>div>div:nth-of-type(2)>ul>li:nth-of-type(2)>a",
+     "href": "https://www.logitech.com/en-us/business.html",
+     "expanded": null,
+     "rect": [
+      48,
+      98,
+      57,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Education",
+     "key": "education",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(1)>div>div:nth-of-type(2)>ul>li:nth-of-type(3)>a",
+     "href": "https://www.logitech.com/en-us/education.html",
+     "expanded": null,
+     "rect": [
+      48,
+      116,
+      65,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Outlet",
+     "key": "outlet",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(1)>div>div:nth-of-type(2)>ul>li:nth-of-type(4)>a",
+     "href": "https://www.logitech.com/en-us/shop/outlet",
+     "expanded": null,
+     "rect": [
+      68,
+      136,
+      40,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Support",
+     "key": "support",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(1)>div>div:nth-of-type(2)>div>a",
+     "href": "https://support.logi.com/hc/en-us",
+     "expanded": null,
+     "rect": [
+      8,
+      170,
+      51,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "US,en",
+     "key": "usen",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(1)>div>div:nth-of-type(2)>div>div>a",
+     "href": "https://www.logitech.com/en-us/change-location",
+     "expanded": null,
+     "rect": [
+      28,
+      190,
+      40,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Shop",
+     "key": "shop",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>div>div>div>nav>div:nth-of-type(1)>div:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      8,
+      219,
+      16,
+      6
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Shop",
+     "key": "shop",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>div>div>div>nav>div:nth-of-type(1)>div:nth-of-type(2)>a",
+     "href": "https://www.logitech.com/en-us/shop",
+     "expanded": null,
+     "rect": [
+      28,
+      208,
+      33,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Close menu",
+     "key": "close menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(1)>button",
+     "expanded": null,
+     "rect": [
+      8,
+      226,
+      29,
+      22
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Mice",
+     "key": "mice",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1)>a",
+     "href": "https://www.logitech.com/en-us/shop/c/mice",
+     "expanded": null,
+     "rect": [
+      8,
+      309,
+      374,
+      153
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Keyboards",
+     "key": "keyboards",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(2)>a",
+     "href": "https://www.logitech.com/en-us/shop/c/keyboards",
+     "expanded": null,
+     "rect": [
+      8,
+      478,
+      374,
+      153
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Combos",
+     "key": "combos",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(3)>a",
+     "href": "https://www.logitech.com/en-us/shop/c/combos",
+     "expanded": null,
+     "rect": [
+      8,
+      647,
+      374,
+      153
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Webcams",
+     "key": "webcams",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(4)>a",
+     "href": "https://www.logitech.com/en-us/shop/c/webcams",
+     "expanded": null,
+     "rect": [
+      8,
+      816,
+      374,
+      153
+     ],
+     "actions": {}
+    },
+    {
+     "name": "iPad Keyboard Cases",
+     "key": "ipad keyboard cases",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(5)>a",
+     "href": "https://www.logitech.com/en-us/shop/c/ipad-keyboards",
+     "expanded": null,
+     "rect": [
+      8,
+      985,
+      374,
+      153
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Gaming",
+     "key": "gaming",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(6)>a",
+     "href": "https://www.logitechg.com/en-us",
+     "expanded": null,
+     "rect": [
+      8,
+      1154,
+      374,
+      153
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Headsets",
+     "key": "headsets",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>ul>li:nth-of-type(1)>a",
+     "href": "https://www.logitech.com/en-us/shop/c/headsets",
+     "expanded": null,
+     "rect": [
+      48,
+      1323,
+      54,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Microphones",
+     "key": "microphones",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>ul>li:nth-of-type(2)>a",
+     "href": "https://www.logitech.com/en-us/shop/c/microphones",
+     "expanded": null,
+     "rect": [
+      48,
+      1341,
+      79,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Speakers",
+     "key": "speakers",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>ul>li:nth-of-type(3)>a",
+     "href": "https://www.logitech.com/en-us/shop/c/speakers",
+     "expanded": null,
+     "rect": [
+      48,
+      1359,
+      54,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Digital Pens",
+     "key": "digital pens",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>ul>li:nth-of-type(4)>a",
+     "href": "https://www.logitech.com/en-us/shop/c/digital-pens",
+     "expanded": null,
+     "rect": [
+      48,
+      1377,
+      73,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Presenters",
+     "key": "presenters",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>ul>li:nth-of-type(5)>a",
+     "href": "https://www.logitech.com/en-us/shop/c/presenters",
+     "expanded": null,
+     "rect": [
+      48,
+      1395,
+      61,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Mouse Pads",
+     "key": "mouse pads",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>ul>li:nth-of-type(6)>a",
+     "href": "https://www.logitech.com/en-us/shop/c/gaming-mouse-pads",
+     "expanded": null,
+     "rect": [
+      48,
+      1413,
+      73,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Refurbished Products",
+     "key": "refurbished products",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>ul>li:nth-of-type(7)>a",
+     "href": "https://www.logitech.com/en-us/shop/c/certified-refurb",
+     "expanded": null,
+     "rect": [
+      48,
+      1431,
+      129,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Accessories",
+     "key": "accessories",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>ul>li:nth-of-type(8)>a",
+     "href": "https://www.logitech.com/en-us/shop/c/accessories",
+     "expanded": null,
+     "rect": [
+      48,
+      1449,
+      71,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Best Sellers",
+     "key": "best sellers",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(2)>div>ul>li:nth-of-type(9)>a",
+     "href": "https://www.logitech.com/en-us/shop/c/best-sellers",
+     "expanded": null,
+     "rect": [
+      48,
+      1467,
+      70,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "MX Series MX Series",
+     "key": "mx series mx series",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(1)>a",
+     "href": "https://www.logitech.com/en-us/discover/c/master-series",
+     "expanded": null,
+     "rect": [
+      8,
+      1545,
+      374,
+      146
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Ergo Series Ergo Series",
+     "key": "ergo series ergo series",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(2)>a",
+     "href": "https://www.logitech.com/en-us/discover/c/ergo-series",
+     "expanded": null,
+     "rect": [
+      8,
+      1707,
+      374,
+      146
+     ],
+     "actions": {}
+    },
+    {
+     "name": "For Mac For Mac",
+     "key": "for mac for mac",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(3)>a",
+     "href": "https://www.logitech.com/en-us/discover/c/for-mac",
+     "expanded": null,
+     "rect": [
+      8,
+      1869,
+      374,
+      146
+     ],
+     "actions": {}
+    },
+    {
+     "name": "For iPad For iPad",
+     "key": "for ipad for ipad",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(3)>div:nth-of-type(2)>div:nth-of-type(4)>a",
+     "href": "https://www.logitech.com/en-us/discover/c/for-ipad",
+     "expanded": null,
+     "rect": [
+      8,
+      2031,
+      374,
+      146
+     ],
+     "actions": {}
+    },
+    {
+     "name": "MX for Creatives",
+     "key": "mx for creatives",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(4)>div>ul>li:nth-of-type(1)>a",
+     "href": "https://www.logitech.com/en-us/discover/c/mx-creatives",
+     "expanded": null,
+     "rect": [
+      48,
+      2193,
+      105,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "MX for Coders",
+     "key": "mx for coders",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(4)>div>ul>li:nth-of-type(2)>a",
+     "href": "https://www.logitech.com/en-us/discover/c/mx-coders",
+     "expanded": null,
+     "rect": [
+      48,
+      2211,
+      92,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "On The Go",
+     "key": "on the go",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(4)>div>ul>li:nth-of-type(3)>a",
+     "href": "https://www.logitech.com/mobility/mobile-solutions.html",
+     "expanded": null,
+     "rect": [
+      48,
+      2229,
+      67,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Ultimate Ears",
+     "key": "ultimate ears",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(4)>div>ul>li:nth-of-type(4)>a",
+     "href": "https://www.logitech.com/en-us/discover/c/ultimate-ears",
+     "expanded": null,
+     "rect": [
+      48,
+      2247,
+      82,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "For Business",
+     "key": "for business",
+     "role": "link",
+     "kind": "link",
+     "sel": "#desktop-nav-panel-0>div>div>div:nth-of-type(2)>div>div:nth-of-type(4)>div>ul>li:nth-of-type(5)>a",
+     "href": "https://www.logitech.com/business.html",
+     "expanded": null,
+     "rect": [
+      48,
+      2265,
+      77,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Software",
+     "key": "software",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>div>div>div>nav>div:nth-of-type(1)>div:nth-of-type(3)>a",
+     "href": "https://www.logitech.com/en-us/software",
+     "expanded": null,
+     "rect": [
+      8,
+      819,
+      58,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Deals",
+     "key": "deals",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>div>div>div>nav>div:nth-of-type(1)>div:nth-of-type(4)>a",
+     "href": "https://www.logitech.com/en-us/shop/deals",
+     "expanded": null,
+     "rect": [
+      8,
+      837,
+      36,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Planet",
+     "key": "planet",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>div>div>div>nav>div:nth-of-type(1)>div:nth-of-type(5)>a",
+     "href": "https://www.logitech.com/en-us/planet-and-people/everything-matters",
+     "expanded": null,
+     "rect": [
+      8,
+      855,
+      40,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Search",
+     "key": "search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>div>div>div>nav>div:nth-of-type(2)>div>button:nth-of-type(1)",
+     "expanded": null,
+     "rect": [
+      8,
+      873,
+      34,
+      27
+     ],
+     "actions": {
+      "click": null,
+      "key": {
+       "opened": false,
+       "hides": 14
+      }
+     }
+    },
+    {
+     "name": "Wishlist",
+     "key": "wishlist",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>div>div>div>nav>div:nth-of-type(2)>div>div:nth-of-type(1)>button",
+     "expanded": null,
+     "rect": [
+      8,
+      900,
+      36,
+      27
+     ],
+     "actions": {
+      "click": {
+       "opened": false,
+       "hides": 2
+      },
+      "key": {
+       "opened": false,
+       "hides": 14
+      }
+     }
+    },
+    {
+     "name": "My Account",
+     "key": "my account",
+     "role": "toggle",
+     "kind": "account",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>div>div>div>nav>div:nth-of-type(2)>div>div:nth-of-type(2)>button",
+     "expanded": null,
+     "rect": [
+      8,
+      927,
+      31,
+      26
+     ],
+     "actions": {
+      "click": {
+       "opened": false,
+       "hides": 3
+      },
+      "key": {
+       "opened": false,
+       "hides": 14
+      }
+     }
+    },
+    {
+     "name": "View Cart",
+     "key": "view cart",
+     "role": "link",
+     "kind": "cart",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>div>div>div>nav>div:nth-of-type(2)>div>a",
+     "href": "https://www.logitech.com/en-us/cart",
+     "expanded": null,
+     "rect": [
+      8,
+      957,
+      23,
+      17
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Open",
+     "key": "open",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>div>div>div>div:nth-of-type(1)>header>div:nth-of-type(2)>div>div>div>nav>div:nth-of-type(2)>div>button:nth-of-type(2)",
+     "expanded": null,
+     "rect": [
+      31,
+      954,
+      32,
+      23
+     ],
+     "actions": {
+      "click": {
+       "opened": false,
+       "hides": 4
+      },
+      "key": {
+       "opened": false,
+       "hides": 14
+      }
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 26,
+     "height": 951,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -974,
+     "height": 951,
+     "position": "static",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -674,
+     "height": 951,
+     "position": "static",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 26,
+     "height": 951,
+     "position": "static",
+     "inView": true
+    }
+   ],
+   "states": 0,
+   "truncated": null,
+   "loads": 1
+  },
+  "1440": {
+   "root": null,
+   "controls": [],
+   "scroll": [],
+   "states": 0,
+   "truncated": null,
+   "loads": 1
+  }
+ },
+ "probe": "error"
+}

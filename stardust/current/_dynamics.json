@@ -1,0 +1,1479 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-02T19:17:04.918Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.logitech.com/en-us"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/en-us": {
+   "url": "https://www.logitech.com/en-us",
+   "status": 200,
+   "host": "www.logitech.com",
+   "title": "Logitech United States",
+   "forms": [
+    {
+     "name": "footer-bar-email-subscription-form",
+     "action": null,
+     "method": "post",
+     "role": "",
+     "inChrome": true,
+     "fields": 2,
+     "signature": [
+      "email:emailId",
+      "checkbox:subscription-disclaimer"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "subscribe-form",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 1,
+     "signature": [
+      "email:email"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Ask Logitech",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Logitech",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 8,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Shop products",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 13,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "For Productivity",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 16,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "For Gaming and Streaming",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 24,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "For Business",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 12,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "For Education",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 13,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Support",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Software",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 8,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Cookie Settings",
+     "href": "https://www.logitech.com/en-us/legal/cookie-policy",
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Cookies Settings",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 16,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 227,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 203,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 203,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 203,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 4,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://logitech.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.logitech.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://8227232.fls.doubleclick.net/activityi;src=8227232;type=onsit0;cat=pagev000;rcb=8;ord=1;num=730669318445;npa=0;auiddc=1253413976.1793647027;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://logitech.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fwww.logitech.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": "https://8227232.fls.doubleclick.net/activityi;src=8227232;type=onsit0;cat=pagev000;rcb=8;ord=1;num=730669318445;npa=0;auiddc=1253413976.1793647027;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6at0v9181633541za200zb9181206901zd9181206901xecxf1;gcs=G1-1;gcd=13l3n3l3l5l1;dma=0;dc_fmt=2;tag_exp=115938465~115938469~117776795~118131808~118897920~118897930~120213116~120385422~120469145~120469153~121246026~121246034~123691370;epver=2;dc_random=1793647027_lj895uSwovl92IDmMdMuZxL0orj2Xe-CNA;_dc_test=1;~oref=https%3A%2F%2Fwww.logitech.com%2Fen-us?",
+     "title": null,
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "chat window",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": null,
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://www.logitech.com/en-us/shop/c/accessories",
+    "https://www.logitech.com/en-us/discover/c/macbook-neo-accessories",
+    "https://www.logitech.com/en-us/discover/c/macbook-neo-accessories",
+    "https://www.logitech.com/en-us/my-account/order-faqs#returns-and-cancellations"
+   ],
+   "commerce": {
+    "cart": true,
+    "prices": 10
+   },
+   "locale": {
+    "lang": "en-us",
+    "hreflang": [
+     "en-ie",
+     "en-us",
+     "en-in",
+     "en-ae",
+     "en-za",
+     "no-no",
+     "zh-cn",
+     "nl-be",
+     "el-gr",
+     "en-my",
+     "nl-nl",
+     "en-eu",
+     "en-au",
+     "ja-jp",
+     "de-ch",
+     "hu-hu",
+     "fr-ca",
+     "es-es",
+     "en-nz",
+     "ar-ae",
+     "pl-pl",
+     "en-sa",
+     "fr-be",
+     "en-sg",
+     "it-ch",
+     "tr-tr",
+     "fr-fr",
+     "vi-vn",
+     "en-gb",
+     "fi-fi",
+     "en-ca",
+     "en-ch",
+     "de-at",
+     "fr-ch",
+     "cs-cz",
+     "en-ph",
+     "de-de",
+     "zh-tw",
+     "zh-hk",
+     "pt-br",
+     "ko-kr",
+     "en-hk",
+     "es-mx",
+     "it-it",
+     "es-ar",
+     "sv-se",
+     "id-id",
+     "da-dk",
+     "th-th",
+     "x-default"
+    ],
+    "switcher": [
+     "https://support.logi.com/hc/en-us",
+     "https://support.logi.com/hc/categories/360001764393-Gaming",
+     "https://prosupport.logi.com/hc/"
+    ]
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "push"
+    ],
+    "utag_data": [
+     "site_id",
+     "site_environment",
+     "site_locale",
+     "site_language",
+     "site_country",
+     "site_arch",
+     "customer_type",
+     "page_name",
+     "page_type",
+     "page_category_name",
+     "page_brand",
+     "is_mobile_tablet_desktop",
+     "osType",
+     "cp.utag_main__sn",
+     "cp.utag_main__se",
+     "cp.utag_main__ss",
+     "cp.utag_main__st",
+     "cp.utag_main_ses_id",
+     "cp.utag_main__pn",
+     "cp.site_id",
+     "cp.LCID",
+     "cp._evga_d685",
+     "cp.account-rollout",
+     "cp._sfid_fcb3",
+     "cp.OptanonConsent",
+     "meta.viewport",
+     "meta.robots",
+     "meta.twitter:title",
+     "meta.twitter:description",
+     "meta.twitter:image"
+    ]
+   },
+   "framework": "sveltekit",
+   "globals": [
+    "adobe",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "gtag",
+    "Munchkin",
+    "utag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "card-grid lg:grid",
+     "cards": 5,
+     "sameSite": 5,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 2,
+   "inlineFetch": false,
+   "mainText": 2610,
+   "domAddedAfterLoad": 355,
+   "hosts": {
+    "www.logitech.com": 299,
+    "resource.logitech.com": 40,
+    "cdn.cookielaw.org": 7,
+    "cdn.evgnet.com": 1,
+    "geolocation.onetrust.com": 1,
+    "webtags.logitech.com": 21,
+    "logitecheurope.us-6.evergage.com": 4,
+    "agents.cloud.google.com": 1,
+    "cdn.bizible.com": 5,
+    "munchkin.marketo.net": 2,
+    "www.gstatic.com": 3,
+    "connect.facebook.net": 2,
+    "siteimproveanalytics.com": 1,
+    "www.redditstatic.com": 1,
+    "dpm.demdex.net": 2,
+    "pubads.g.doubleclick.net": 1,
+    "cdn.tkrconnector.com": 1,
+    "m.servedby-buysellads.com": 1,
+    "utt.impactcdn.com": 1,
+    "www.googletagmanager.com": 6,
+    "cdn.bizibly.com": 1,
+    "logitech.demdex.net": 1,
+    "cm.everesttech.net": 1,
+    "cdn.yellowmessenger.com": 50,
+    "webanalytics.logitech.com": 2,
+    "6016578.global.siteimproveanalytics.io": 4,
+    "sync-tm.everesttech.net": 16,
+    "alb.reddit.com": 1,
+    "ws.zoominfo.com": 2,
+    "logitech.cfzu.net": 1,
+    "cdn.quantummetric.com": 1,
+    "www.google-analytics.com": 2,
+    "www.ojrq.net": 1,
+    "www.facebook.com": 3,
+    "ct.pinterest.com": 1,
+    "analytics.tiktok.com": 2,
+    "match.adsrvr.org": 1,
+    "www.google.com": 17,
+    "www.googleadservices.com": 2,
+    "ad.doubleclick.net": 4,
+    "googleads.g.doubleclick.net": 6,
+    "201-wgh-889.mktoresp.com": 1,
+    "agenticapplications.googleapis.com": 2,
+    "fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws": 2,
+    "ingest.quantummetric.com": 19,
+    "mr-eu.logitech.com": 1,
+    "8227232.fls.doubleclick.net": 2,
+    "adservice.google.com": 1,
+    "r4.cloud.yellow.ai": 10,
+    "r4.app.yellow.ai": 4,
+    "r4-ym-uploads.s3-us-west-2.amazonaws.com": 4,
+    "services.google.com": 8,
+    "fonts.googleapis.com": 8,
+    "gstatic.com": 1,
+    "fonts.gstatic.com": 3,
+    "privacyportal.onetrust.com": 1,
+    "ces.googleapis.com": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "cdn.evgnet.com",
+    "geolocation.onetrust.com",
+    "logitecheurope.us-6.evergage.com",
+    "agents.cloud.google.com",
+    "cdn.bizible.com",
+    "munchkin.marketo.net",
+    "www.gstatic.com",
+    "connect.facebook.net",
+    "siteimproveanalytics.com",
+    "www.redditstatic.com",
+    "dpm.demdex.net",
+    "pubads.g.doubleclick.net",
+    "cdn.tkrconnector.com",
+    "m.servedby-buysellads.com",
+    "utt.impactcdn.com",
+    "www.googletagmanager.com",
+    "cdn.bizibly.com",
+    "logitech.demdex.net",
+    "cm.everesttech.net",
+    "cdn.yellowmessenger.com",
+    "6016578.global.siteimproveanalytics.io",
+    "sync-tm.everesttech.net",
+    "alb.reddit.com",
+    "ws.zoominfo.com",
+    "logitech.cfzu.net",
+    "cdn.quantummetric.com",
+    "www.google-analytics.com",
+    "www.ojrq.net",
+    "www.facebook.com",
+    "ct.pinterest.com",
+    "analytics.tiktok.com",
+    "match.adsrvr.org",
+    "www.google.com",
+    "www.googleadservices.com",
+    "ad.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "201-wgh-889.mktoresp.com",
+    "agenticapplications.googleapis.com",
+    "fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws",
+    "ingest.quantummetric.com",
+    "8227232.fls.doubleclick.net",
+    "adservice.google.com",
+    "r4.cloud.yellow.ai",
+    "r4.app.yellow.ai",
+    "r4-ym-uploads.s3-us-west-2.amazonaws.com",
+    "services.google.com",
+    "fonts.googleapis.com",
+    "gstatic.com",
+    "fonts.gstatic.com",
+    "privacyportal.onetrust.com",
+    "ces.googleapis.com"
+   ],
+   "scripts": [
+    "https://www.logitech.com/_app/immutable/entry/app.D4-hXkD4.js",
+    "https://www.logitech.com/_app/immutable/entry/start.D1TZpJSK.js",
+    "https://www.logitech.com/_app/immutable/chunks/Dp1pzeXC.js",
+    "https://www.logitech.com/_app/immutable/chunks/E4OQgFsk.js",
+    "https://www.logitech.com/_app/immutable/chunks/shotRhrL.js",
+    "https://www.logitech.com/_app/immutable/chunks/Bzak7iHL.js",
+    "https://www.logitech.com/_app/immutable/chunks/CTlvK6Ik.js",
+    "https://www.logitech.com/_app/immutable/chunks/CxEvrIk3.js",
+    "https://www.logitech.com/_app/immutable/chunks/B1UpLSFz.js",
+    "https://www.logitech.com/_app/immutable/chunks/dxVQy4Xa.js",
+    "https://www.logitech.com/_app/immutable/chunks/djZF55e6.js",
+    "https://www.logitech.com/_app/immutable/chunks/B-7Hdd5l.js",
+    "https://www.logitech.com/_app/immutable/chunks/Eq00WXTT.js",
+    "https://www.logitech.com/_app/immutable/chunks/DE3NVsFo.js",
+    "https://www.logitech.com/_app/immutable/chunks/OA8UcISh.js",
+    "https://www.logitech.com/_app/immutable/chunks/d5a-ciRj.js",
+    "https://www.logitech.com/_app/immutable/nodes/0.Cy3XXEUd.js",
+    "https://www.logitech.com/_app/immutable/chunks/OIhH4P-Z.js",
+    "https://www.logitech.com/_app/immutable/chunks/BlBrccKf.js",
+    "https://www.logitech.com/_app/immutable/chunks/Bp3VGx_u.js",
+    "https://www.logitech.com/_app/immutable/chunks/Du2JXVGe.js",
+    "https://www.logitech.com/_app/immutable/chunks/BLTWfgQi.js",
+    "https://www.logitech.com/_app/immutable/nodes/1.DMAqEYoG.js",
+    "https://www.logitech.com/_app/immutable/chunks/9VsUOcdx.js",
+    "https://www.logitech.com/_app/immutable/chunks/GJRMdYcx.js",
+    "https://www.logitech.com/_app/immutable/chunks/BKjO2BMM.js",
+    "https://www.logitech.com/_app/immutable/chunks/C5RagBtf.js",
+    "https://www.logitech.com/_app/immutable/chunks/Os4jAHdX.js",
+    "https://www.logitech.com/_app/immutable/chunks/BsrhnHwg.js",
+    "https://www.logitech.com/_app/immutable/chunks/CuST8QK0.js",
+    "https://www.logitech.com/_app/immutable/chunks/E9tapTKT.js",
+    "https://www.logitech.com/_app/immutable/chunks/Dw3hYLmU.js",
+    "https://www.logitech.com/_app/immutable/chunks/CiF19NlE.js",
+    "https://www.logitech.com/_app/immutable/chunks/D9isyOkH.js",
+    "https://www.logitech.com/_app/immutable/nodes/2.BYtUmJdW.js",
+    "https://www.logitech.com/_app/immutable/chunks/BQ2kJ1AF.js",
+    "https://www.logitech.com/_app/immutable/chunks/4VkjibO5.js",
+    "https://www.logitech.com/_app/immutable/chunks/DandsNR9.js",
+    "https://www.logitech.com/_app/immutable/chunks/CZqAAFk8.js",
+    "https://www.logitech.com/_app/immutable/chunks/BMtxumUI.js",
+    "https://www.logitech.com/_app/immutable/chunks/DPRj2aCs.js",
+    "https://www.logitech.com/_app/immutable/chunks/CuLD7EdA.js",
+    "https://www.logitech.com/_app/immutable/chunks/GekFuQR2.js",
+    "https://www.logitech.com/_app/immutable/chunks/CBRXZOUH.js",
+    "https://www.logitech.com/_app/immutable/chunks/Bri3zkjy.js",
+    "https://www.logitech.com/_app/immutable/chunks/DqEbu0gI.js",
+    "https://www.logitech.com/_app/immutable/chunks/GK27Itsz.js",
+    "https://www.logitech.com/_app/immutable/chunks/CeFYbS8J.js",
+    "https://www.logitech.com/_app/immutable/chunks/CqMpU-6M.js",
+    "https://www.logitech.com/_app/immutable/chunks/c4l39dFS.js",
+    "https://www.logitech.com/_app/immutable/chunks/BIcwaRCq.js",
+    "https://www.logitech.com/_app/immutable/chunks/CZ-C7He1.js",
+    "https://www.logitech.com/_app/immutable/chunks/DhMCn8Xo.js",
+    "https://www.logitech.com/_app/immutable/chunks/BQnGtHrb.js",
+    "https://www.logitech.com/_app/immutable/chunks/b5nrvgHP.js",
+    "https://www.logitech.com/_app/immutable/chunks/BFuYONBl.js",
+    "https://www.logitech.com/_app/immutable/chunks/DcihOCFz.js",
+    "https://www.logitech.com/_app/immutable/chunks/CH7BE6MN.js",
+    "https://www.logitech.com/_app/immutable/chunks/CY2Iq7sm.js",
+    "https://www.logitech.com/_app/immutable/chunks/gqeLmaaO.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.logitech.com",
+     "path": "/en-us/api/shopping-agent-rollout",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.logitech.com/en-us/api/shopping-agent-rollout"
+    },
+    {
+     "method": "GET",
+     "host": "www.logitech.com",
+     "path": "/en-us/api/sfcc-auth",
+     "query": [
+      "requireOnlyAccessToken"
+     ],
+     "status": 200,
+     "contentType": "text/plain",
+     "example": "https://www.logitech.com/en-us/api/sfcc-auth"
+    },
+    {
+     "method": "GET",
+     "host": "webanalytics.logitech.com",
+     "path": "/id",
+     "query": [
+      "d_fieldgroup",
+      "d_visid_ver",
+      "mcorgid",
+      "mid",
+      "ts"
+     ],
+     "status": 200,
+     "contentType": "application/x-javascript",
+     "example": "https://webanalytics.logitech.com/id"
+    },
+    {
+     "method": "POST",
+     "host": "www.logitech.com",
+     "path": "/en-us/api/shopping-agent-token",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.logitech.com/en-us/api/shopping-agent-token"
+    },
+    {
+     "method": "POST",
+     "host": "mr-eu.logitech.com",
+     "path": "/v1/p",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://mr-eu.logitech.com/v1/p"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/a5d4a538-21e6-485f-9f0b-0bab76c31f5c/a5d4a538-21e6-485f-9f0b-0bab76c31f",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/a5d4a538-21e6-485f-9f0b-0bab76c31f5c/018e2e69-7810-760a-83b5-957ce42a2b",
+    "GET cdn.cookielaw.org/scripttemplates/202607.1.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/scripttemplates/202607.1.0/assets/otFloatingRoundedCorner.json",
+    "GET logitecheurope.us-6.evergage.com/api2/event/logitech_prod",
+    "GET dpm.demdex.net/id",
+    "POST alb.reddit.com/rp",
+    "POST logitech.cfzu.net/xur/8585",
+    "POST www.google-analytics.com/g/collect",
+    "GET match.adsrvr.org/track/rid",
+    "POST www.google.com/ccm/collect",
+    "POST www.google.com/rmkt/collect/316290540/",
+    "GET www.googleadservices.com/pagead/conversion/316290540/",
+    "POST ad.doubleclick.net/ccm/s/collect",
+    "POST agenticapplications.googleapis.com/v1/sales:retrieveConfig",
+    "POST googleads.g.doubleclick.net/pagead/viewthroughconversion/316290540/",
+    "POST fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws/events",
+    "GET www.google.com/pagead/1p-conversion/316290540/",
+    "HEAD ingest.quantummetric.com/horizon/d",
+    "POST ad.doubleclick.net/activity;src=8227232;rcb=8;npa=0;auiddc=1253413976.1793647027;gdid=dYWJhMj.dYmQ",
+    "POST r4.cloud.yellow.ai/api/plugin/bot-load-details",
+    "POST www.google.com/rmkt/collect/818993388/",
+    "GET www.googleadservices.com/pagead/conversion/818993388/",
+    "POST ad.doubleclick.net/activity;src=8227232;type=onsit0;cat=pagev000;rcb=8;ord=1;num=730669318445;npa=",
+    "GET r4.cloud.yellow.ai/api/plugin/push-to-metrics",
+    "GET ad.doubleclick.net/activity;dc_pre=CJHDju__6ZcDFaYOhAgdE6sMdQ;src=8227232;type=onsit0;cat=pagev000",
+    "GET www.google.com/gmp/conversion/_dc_unique_id=5415779036615151408;_dc_ptd=ChEIgIah1wYQnfTFlK6HxM",
+    "POST ingest.quantummetric.com/horizon/logitech",
+    "POST googleads.g.doubleclick.net/pagead/viewthroughconversion/818993388/",
+    "GET www.google.com/pagead/1p-conversion/818993388/",
+    "POST agenticapplications.googleapis.com/v1/sales/projects/www-vertex-search-prod/locations/global/commerceSessions/5UW0",
+    "GET r4.cloud.yellow.ai/api/plugin/active-ticket-details",
+    "POST privacyportal.onetrust.com/request/v1/consentreceipts/anonymous",
+    "POST r4.cloud.yellow.ai/integrations/yellowmessenger/receive",
+    "GET r4.cloud.yellow.ai/api/engagements/inbound/list-campaigns",
+    "POST r4.cloud.yellow.ai/integrations/analytics/send-event",
+    "POST r4.cloud.yellow.ai/api/plugin/update-user-info",
+    "POST r4.cloud.yellow.ai/api/plugin/analytics",
+    "POST ingest.quantummetric.com/resource-loader/logitech/hash-check"
+   ],
+   "postBodies": [
+    {
+     "url": "https://www.logitech.com/en-us/api/shopping-agent-token",
+     "body": "{}"
+    },
+    {
+     "url": "https://alb.reddit.com/rp?id=a2_fosi4zco38fw&event=PageVisit",
+     "body": "ts=1793647026591&id=a2_fosi4zco38fw&event=PageVisit&m.itemCount=&m.value=&m.valueDecimal=&m.currency=&m.transactionId=&m.orderId=&m.customEventName=&m.products=&m.conversionId=fabe54764a0b8b1815207c21e2dd4c70ed40ef9ca368c5037febf5263387214d&uuid=4c5e488c-caa7-46ef-a585-1d59da9d55fd&aaid=&external_id=&idfa=&integration=reddit&partner=TEALIUM&partner_version=&opt_out=0&sh=1440&sw=900&v=rdt_f025a3b9&"
+    },
+    {
+     "url": "https://logitech.cfzu.net/xur/8585",
+     "body": "missingIdentifyInfo=true&_ir=U909%7C%7C1793647026653%7C22b541bb"
+    },
+    {
+     "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-C76JLBDFDY&gtm=45je6at0v9181206901za208zd9181206901xf1&_p=1793647026286&gcs=G1-1&gcd=13l3n3l3l5l1&npa=0&dma=0&gdid=dYWJhMj.dYmQxMT&cid=1032674551.1",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/316290540/?random=1793647026998&cv=11&fst=1793647026998&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6at0v876932083za208zb9181206901zd9181206901xecxf1&gcd",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/rmkt/collect/316290540/?random=1793647027019&cv=11&fst=1793647027019&fmt=8&bg=ffffff&guid=ON&async=1&en=MetaRouterSync&gtm=45be6at0v876932083za200zb9181206901zd9181206901xecxf1&",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=1&auid=1253413976.1793647027&dt=Logitech%20United%20States&tid=AW-316290540&en=page_view&dl=https%3A%2F%2Fwww.logitech.com%2Fen-us&scrsrc=www.google",
+     "body": ""
+    },
+    {
+     "url": "https://ad.doubleclick.net/ccm/s/collect?_gsid=q5U-75LwADtpc-_ANoQkFcHr10UFK95apA&auid=1253413976.1793647027&gtm=45be6at0v876932083za208zb9181206901zd9181206901xecxf1&fmt=8",
+     "body": ""
+    },
+    {
+     "url": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=0&auid=1253413976.1793647027&dt=Logitech%20United%20States&tid=AW-316290540&en=MetaRouterSync&dl=https%3A%2F%2Fwww.logitech.com%2Fen-us&scrsrc=www.g",
+     "body": ""
+    },
+    {
+     "url": "https://agenticapplications.googleapis.com/v1/sales:retrieveConfig",
+     "body": "{\"name\":\"projects/agentis-commerce-corp-dev/locations/prod/salesAgentConfigs/logitech_prod_cfg_8237\"}"
+    },
+    {
+     "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/316290540/?random=1643626128&cv=11&fst=1793647026968&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6at0v876932083za200zb9181206",
+     "body": ""
+    },
+    {
+     "url": "https://fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws/events?cee=no",
+     "body": "{\"event_name\":\"PageView\",\"event_id\":\"ob3_plugin-set_2f6fdb29f06035e8ed00efb050ae434c78ae4376f85ef58d4aa5e9b963b87a6c\",\"fb.pixel_id\":\"1100401236706364\",\"website_context\":{\"location\":\"https://www.logitech.com/en-us\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1793647026828.979340672\",\"event_meta_info\":{\"cs_est\":true}}"
+    }
+   ],
+   "textAtLoad": 2626,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-logitecheurope-us-6-evergage-com",
+   "class": "A",
+   "feature": "unknown third-party host logitecheurope.us-6.evergage.com",
+   "hint": "inspect",
+   "evidence": [
+    "logitecheurope.us-6.evergage.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-alb-reddit-com",
+   "class": "A",
+   "feature": "unknown third-party host alb.reddit.com",
+   "hint": "inspect",
+   "evidence": [
+    "alb.reddit.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-logitech-cfzu-net",
+   "class": "A",
+   "feature": "unknown third-party host logitech.cfzu.net",
+   "hint": "inspect",
+   "evidence": [
+    "logitech.cfzu.net"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-www-google-com",
+   "class": "A",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-agenticapplications-googleapis-co",
+   "class": "A",
+   "feature": "unknown third-party host agenticapplications.googleapis.com",
+   "hint": "inspect",
+   "evidence": [
+    "agenticapplications.googleapis.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-fh-118116076e9a4c2a96a99fbb70bea2",
+   "class": "A",
+   "feature": "unknown third-party host fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws",
+   "hint": "inspect",
+   "evidence": [
+    "fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-r4-cloud-yellow-ai",
+   "class": "A",
+   "feature": "unknown third-party host r4.cloud.yellow.ai",
+   "hint": "inspect",
+   "evidence": [
+    "r4.cloud.yellow.ai"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "a-first-party-api-get-en-us-api-shopping-agent-rollout",
+   "class": "A",
+   "feature": "first-party API GET /en-us/api/shopping-agent-rollout",
+   "api": {
+    "method": "GET",
+    "path": "/en-us/api/shopping-agent-rollout"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /en-us/api/shopping-agent-rollout → 200"
+   ],
+   "pages": [
+    "/en-us"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-get-en-us-api-sfcc-auth",
+   "class": "A",
+   "feature": "first-party API GET /en-us/api/sfcc-auth",
+   "api": {
+    "method": "GET",
+    "path": "/en-us/api/sfcc-auth"
+   },
+   "hint": "api",
+   "evidence": [
+    "GET /en-us/api/sfcc-auth?requireOnlyAccessToken → 200"
+   ],
+   "pages": [
+    "/en-us"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-first-party-api-post-en-us-api-shopping-agent-token",
+   "class": "A",
+   "feature": "first-party API POST /en-us/api/shopping-agent-token",
+   "api": {
+    "method": "POST",
+    "path": "/en-us/api/shopping-agent-token"
+   },
+   "hint": "api",
+   "evidence": [
+    "POST /en-us/api/shopping-agent-token → 200"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "a-first-party-api-post-v1-p",
+   "class": "A",
+   "feature": "first-party API POST /v1/p",
+   "api": {
+    "method": "POST",
+    "path": "/v1/p"
+   },
+   "hint": "api",
+   "evidence": [
+    "POST /v1/p → 200"
+   ],
+   "pages": [
+    "/en-us"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 1
+   }
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-utag-data",
+   "class": "A",
+   "feature": "CMS / app settings object utag_data",
+   "hint": "settings",
+   "evidence": [
+    "cp.OptanonConsent"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "cr-client-framework-sveltekit",
+   "class": "CR",
+   "feature": "client framework sveltekit",
+   "hint": "framework",
+   "evidence": [],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "f-form-footer-bar-email-subscription-form-no-action-js-wired",
+   "class": "F",
+   "feature": "form \"footer-bar-email-subscription-form\" → no action (JS-wired) (2 fields)",
+   "signature": [
+    "email:emailId",
+    "checkbox:subscription-disclaimer"
+   ],
+   "hint": "client-compute?",
+   "evidence": [
+    "email:emailId,checkbox:subscription-disclaimer"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "f-form-subscribe-form-no-action-js-wired-1-fields",
+   "class": "F",
+   "feature": "form \"subscribe-form\" → no action (JS-wired) (1 fields)",
+   "signature": [
+    "email:email"
+   ],
+   "hint": "client-compute?",
+   "evidence": [
+    "email:email"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "i18n-locale-variants-en-ie-en-us-en-in-en-ae-en-za-no-no-zh-",
+   "class": "I18N",
+   "feature": "locale variants en-ie,en-us,en-in,en-ae,en-za,no-no,zh-cn,nl-be,el-gr,en-my,nl-nl,en-eu,en-au,ja-jp,de-ch,hu-hu,fr-ca,es-es,en-nz,ar-ae,pl-pl,en-sa,fr-be,en-sg,it-ch,tr-tr,fr-fr,vi-vn,en-gb,fi-fi,en-ca,en-ch,de-at,fr-ch,cs-cz,en-ph,de-de,zh-tw,zh-hk,pt-br,ko-kr,en-hk,es-mx,it-it,es-ar,sv-se,id-id,da-dk,th-th,x-default",
+   "hint": "locale",
+   "evidence": [
+    "https://support.logi.com/hc/en-us",
+    "https://support.logi.com/hc/categories/360001764393-Gaming",
+    "https://prosupport.logi.com/hc/"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Ask Logitech",
+    "Logitech",
+    "Shop products"
+   ],
+   "pages": [
+    "/en-us"
+   ],
+   "reach": {
+    "pages": 11,
+    "of": 1
+   }
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "role": "consent: OneTrust",
+   "hint": "tags",
+   "evidence": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "privacyportal.onetrust.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-evgnet-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.evgnet.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.evgnet.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-agents-cloud-google-com",
+   "class": "T",
+   "feature": "unknown third-party host agents.cloud.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "agents.cloud.google.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-bizible-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.bizible.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.bizible.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-marketing-marketo-munchkin",
+   "class": "T",
+   "feature": "marketing: Marketo Munchkin",
+   "role": "marketing: Marketo Munchkin",
+   "hint": "tags",
+   "evidence": [
+    "munchkin.marketo.net",
+    "201-wgh-889.mktoresp.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-gstatic-com",
+   "class": "T",
+   "feature": "unknown third-party host www.gstatic.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.gstatic.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "connect.facebook.net",
+    "pubads.g.doubleclick.net",
+    "cm.everesttech.net",
+    "sync-tm.everesttech.net",
+    "ct.pinterest.com",
+    "analytics.tiktok.com",
+    "match.adsrvr.org",
+    "ad.doubleclick.net",
+    "googleads.g.doubleclick.net",
+    "8227232.fls.doubleclick.net"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-siteimproveanalytics-com",
+   "class": "T",
+   "feature": "unknown third-party host siteimproveanalytics.com",
+   "hint": "inspect",
+   "evidence": [
+    "siteimproveanalytics.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-redditstatic-com",
+   "class": "T",
+   "feature": "unknown third-party host www.redditstatic.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.redditstatic.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "role": "analytics: Adobe Analytics / Experience Cloud ID",
+   "hint": "tags",
+   "evidence": [
+    "dpm.demdex.net",
+    "logitech.demdex.net"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-tkrconnector-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.tkrconnector.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.tkrconnector.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-m-servedby-buysellads-com",
+   "class": "T",
+   "feature": "unknown third-party host m.servedby-buysellads.com",
+   "hint": "inspect",
+   "evidence": [
+    "m.servedby-buysellads.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-utt-impactcdn-com",
+   "class": "T",
+   "feature": "unknown third-party host utt.impactcdn.com",
+   "hint": "inspect",
+   "evidence": [
+    "utt.impactcdn.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-bizibly-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.bizibly.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.bizibly.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-yellowmessenger-com",
+   "class": "T",
+   "feature": "unknown third-party host cdn.yellowmessenger.com",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.yellowmessenger.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-6016578-global-siteimproveanalyti",
+   "class": "T",
+   "feature": "unknown third-party host 6016578.global.siteimproveanalytics.io",
+   "hint": "inspect",
+   "evidence": [
+    "6016578.global.siteimproveanalytics.io"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-ws-zoominfo-com",
+   "class": "T",
+   "feature": "unknown third-party host ws.zoominfo.com",
+   "hint": "inspect",
+   "evidence": [
+    "ws.zoominfo.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-analytics-session-replay",
+   "class": "T",
+   "feature": "analytics: session replay",
+   "role": "analytics: session replay",
+   "hint": "tags",
+   "evidence": [
+    "cdn.quantummetric.com",
+    "ingest.quantummetric.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "www.google-analytics.com",
+    "www.googleadservices.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-ojrq-net",
+   "class": "T",
+   "feature": "unknown third-party host www.ojrq.net",
+   "hint": "inspect",
+   "evidence": [
+    "www.ojrq.net"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-facebook-com",
+   "class": "T",
+   "feature": "unknown third-party host www.facebook.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.facebook.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-adservice-google-com",
+   "class": "T",
+   "feature": "unknown third-party host adservice.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "adservice.google.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-r4-app-yellow-ai",
+   "class": "T",
+   "feature": "unknown third-party host r4.app.yellow.ai",
+   "hint": "inspect",
+   "evidence": [
+    "r4.app.yellow.ai"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-r4-ym-uploads-s3-us-west-2-amazon",
+   "class": "T",
+   "feature": "unknown third-party host r4-ym-uploads.s3-us-west-2.amazonaws.com",
+   "hint": "inspect",
+   "evidence": [
+    "r4-ym-uploads.s3-us-west-2.amazonaws.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-services-google-com",
+   "class": "T",
+   "feature": "unknown third-party host services.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "services.google.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-gstatic-com",
+   "class": "T",
+   "feature": "unknown third-party host gstatic.com",
+   "hint": "inspect",
+   "evidence": [
+    "gstatic.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-ces-googleapis-com",
+   "class": "T",
+   "feature": "unknown third-party host ces.googleapis.com",
+   "hint": "inspect",
+   "evidence": [
+    "ces.googleapis.com"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "0×0",
+    "chat window"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://www.logitech.com/en-us/shop/c/accessories",
+    "https://www.logitech.com/en-us/discover/c/macbook-neo-accessories",
+    "https://www.logitech.com/en-us/my-account/order-faqs#returns-and-cancellations"
+   ],
+   "pages": [
+    "/en-us"
+   ]
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-10",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 10)",
+   "hint": "decided-out",
+   "evidence": [],
+   "pages": [
+    "/en-us"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 1,
+  "of": 1,
+  "endpoints": {
+   "GET www.logitech.com/en-us/api/sfcc-auth": 1,
+   "GET www.logitech.com/en-us/api/shopping-agent-rollout": 1,
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}.json": 1,
+   "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location": 1,
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}/en.json": 1,
+   "GET cdn.cookielaw.org/scripttemplates/202607.1.0/assets/otFloatingRoundedCorner.json": 1,
+   "GET cdn.cookielaw.org/scripttemplates/202607.1.0/assets/otCommonStyles.css": 1,
+   "GET logitecheurope.us-6.evergage.com/api2/event/logitech_prod": 1,
+   "GET dpm.demdex.net/id": 1,
+   "GET webanalytics.logitech.com/id": 1,
+   "POST www.google-analytics.com/g/collect": 1,
+   "GET match.adsrvr.org/track/rid": 1,
+   "POST www.google.com/ccm/collect": 1,
+   "POST ad.doubleclick.net/ccm/s/collect": 1,
+   "POST www.google.com/rmkt/collect/{n}/": 1,
+   "GET www.googleadservices.com/pagead/conversion/{n}/": 1,
+   "POST alb.reddit.com/rp": 1,
+   "HEAD ingest.quantummetric.com/horizon/d": 1,
+   "POST googleads.g.doubleclick.net/pagead/viewthroughconversion/{n}/": 1,
+   "GET www.google.com/pagead/1p-conversion/{n}/": 1,
+   "POST mr-eu.logitech.com/v1/p": 1,
+   "POST logitech.cfzu.net/xur/{n}": 1,
+   "POST ad.doubleclick.net/activity;src=8227232;rcb=11;npa=0;auiddc=1903500918.1793646728;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=ACA;gtm=45fe6at0v9181633541za200zb9181206901zd9181206901xecxf1;gcs=G1-1;gcd=13l3n3R3l5l1;dma=0;dc_fmt=6;tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121191153~121246026~121246034~123620775~123691370~123814944;epver=2;dc_random=1793646728_JXTlLunnoB5cUIaMZIjmewcfiCv4ur1XTg;~oref=https%3A%2F%2Fwww.logitech.com%2Fen-us": 1,
+   "POST r4.cloud.yellow.ai/api/plugin/bot-load-details": 1,
+   "POST ad.doubleclick.net/activity;src=8227232;type=onsit0;cat=pagev000;rcb=11;ord=1;num=9258605147031;npa=0;auiddc=1903500918.1793646728;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6at0v9181633541za200zb9181206901zd9181206901xecxf1;gcs=G1-1;gcd=13l3n3R3l5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121191153~121246026~121246034~123620775~123691370~123814944;epver=2;dc_random=1793646728_GbG8Xn5Jj0_MOZ2Aj1rXGsY_sfOd4vyUiA;~oref=https%3A%2F%2Fwww.logitech.com%2Fen-us": 1,
+   "POST ingest.quantummetric.com/horizon/logitech": 1,
+   "GET r4.cloud.yellow.ai/api/plugin/push-to-metrics": 1,
+   "GET ad.doubleclick.net/activity;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIfAP7fcWuAA-M7zmkOcuA8LXCi9mPiwLMYo1YSvjTjQQ;dc_pre=COzJxeD-6ZcDFQYMhAgdqhgq6g;src=8227232;type=onsit0;cat=pagev000;rcb=11;ord=1;num=9258605147031;npa=0;auiddc=1903500918.1793646728;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6at0v9181633541za200zb9181206901zd9181206901xecxf1;gcs=G1-1;gcd=13l3n3R3l5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121191153~121246026~121246034~123620775~123691370~123814944;epver=2;dc_random=1793646728_GbG8Xn5Jj0_MOZ2Aj1rXGsY_sfOd4vyUiA;~oref=https%3A%2F%2Fwww.logitech.com%2Fen-us": 1,
+   "GET www.google.com/gmp/conversion/_dc_unique_id=11177552381157969118;_dc_ptd=ChEIgIah1wYQnfTFlK6HxMq3ARIlAP7fcWsKT6QGYTDpvthozQYwQF5nav18lJRNZX-djESUP4WMlw;_dc_time=1793646727;cid=CAQS4QEAQM4h3Ln5A5ahNJLQNmw__psKX9Pdjm7jv8bBddRLg99oapLJn7rWZl5ISaS-93LB_ON1XeqMSVsfy2xZXJK_jFrb2TwHOu4fVgHvkvBF-LdCYM3jx7vW_j4o1VE85wKghnBGoqLObYqHXzm3XLn3dz84IEpdrrHuI98QHNfKYWHA-uaOZhHATO6jm8PBstmRWFdGYbySC1zZbx-ouXc4KAhFhCcGE-FlkLuYYdcDvS8M03xagJw7WU-PrZaGad8pPCjzSK8M7kJPgYQsdUyriwPQGtCNwsFzVPLP1xXmaB4;eps=AHas8cCCqxrrXy1lHETYP_pqjQZWEb6ONg_wRoV2VvioYSd9FnTfATse-8uwdgS2whSaM0cMTePxOJul2FN6KO1fvPzQb1CWfhLhg2SjIkAibC2krA;dc_pre=COzJxeD-6ZcDFQYMhAgdqhgq6g;src=8227232;type=onsit0;cat=pagev000;rcb=11;ord=1;num=9258605147031;npa=0;auiddc=1903500918.1793646728;gdid=dYWJhMj.dYmQxMT;uaa=;uab=;uafvl=;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=noapi;frm=0;_tu=IJA;gtm=45fe6at0v9181633541za200zb9181206901zd9181206901xecxf1;gcs=G1-1;gcd=13l3n3R3l5l1;dma=0;dc_fmt=3;tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121191153~121246026~121246034~123620775~123691370~123814944;epver=2;dc_random=1793646728_GbG8Xn5Jj0_MOZ2Aj1rXGsY_sfOd4vyUiA;~oref=https%3A%2F%2Fwww.logitech.com%2Fen-us": 1,
+   "POST fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws/events": 1,
+   "GET r4.cloud.yellow.ai/api/plugin/active-ticket-details": 1,
+   "POST r4.cloud.yellow.ai/integrations/yellowmessenger/receive": 1,
+   "POST r4.cloud.yellow.ai/integrations/analytics/send-event": 1,
+   "POST r4.cloud.yellow.ai/api/plugin/update-user-info": 1,
+   "GET r4.cloud.yellow.ai/api/engagements/inbound/list-campaigns": 1,
+   "POST r4.cloud.yellow.ai/api/plugin/analytics": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 1,
+  "triggerPages": {
+   "aria-haspopup": 11
+  }
+ }
+}

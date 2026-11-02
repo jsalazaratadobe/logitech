@@ -1,0 +1,302 @@
+[
+ {
+  "domainScript": "a5d4a538-21e6-485f-9f0b-0bab76c31f5c",
+  "version": "202607.1.0",
+  "ruleSets": [
+   {
+    "name": "EU_Users",
+    "type": "GDPR",
+    "countries": 41,
+    "default": false,
+    "gpc": true,
+    "consentModel": "opt-in",
+    "banner": true,
+    "languages": 36,
+    "groups": [
+     {
+      "id": "C0001",
+      "name": "Strictly Necessary Cookies",
+      "status": "always active",
+      "hosts": [
+       "accounts.logi.com",
+       "prosupport.logi.com",
+       "id.logi.com",
+       "www.logitech.com",
+       "smooch.io",
+       "3kit.com",
+       "collector.tribe.so",
+       "w.hcaptcha.com",
+       "api-k8s.caast.tv",
+       "yellow.ai",
+       "logitech.fr",
+       "www.clarity.ms",
+       "logitecheurope.us-6.evergage.com",
+       "hcaptcha.com",
+       "api2.hcaptcha.com"
+      ]
+     },
+     {
+      "id": "C0002",
+      "name": "Analytics Cookies",
+      "status": "inactive",
+      "hosts": [
+       "ip2org-ext-api-gw-prd.zi-ext.com",
+       "c.clarity.ms",
+       "bizible.com",
+       "clarity.ms",
+       "ip2org-ext.zi-ext.com"
+      ]
+     },
+     {
+      "id": "C0003",
+      "name": "Functional Cookies",
+      "status": "inactive",
+      "hosts": [
+       "hackerone.com",
+       "ws.zoominfo.com",
+       "global-e.com",
+       "olivia.paradox.ai",
+       "cdn.evgnet.com",
+       "js.clickrank.ai",
+       "myunidays.com"
+      ]
+     },
+     {
+      "id": "C0004",
+      "name": "Marketing Cookies",
+      "status": "inactive",
+      "hosts": [
+       "adsrvr.org",
+       "youtube.com",
+       "c.bing.com",
+       "casalemedia.com",
+       "dpm.demdex.net",
+       "linkedin.com",
+       "doubleclick.net",
+       "demdex.net",
+       "pxf.io",
+       "ojrq.net",
+       "tiktok.com",
+       "logitech.cfzu.net",
+       "cfzu.net",
+       "everesttech.net",
+       "login.q4inc.com",
+       "bing.com",
+       "sjrtp8-cdn.marketo.com",
+       "sjrtp8.marketo.com",
+       "company-target.com",
+       "www.facebook.com",
+       "pinterest.com",
+       "ct.pinterest.com",
+       "tremorhub.com"
+      ]
+     },
+     {
+      "id": "C0005",
+      "name": "Social Media Cookies",
+      "status": "inactive",
+      "hosts": [
+       "js.clickrank.ai"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "RoW",
+    "type": "GDPR",
+    "countries": 209,
+    "default": true,
+    "gpc": true,
+    "consentModel": "opt-out",
+    "banner": false,
+    "languages": 36,
+    "groups": [
+     {
+      "id": "C0001",
+      "name": "Strictly Necessary Cookies",
+      "status": "always active",
+      "hosts": [
+       "accounts.logi.com",
+       "prosupport.logi.com",
+       "id.logi.com",
+       "www.logitech.com",
+       "smooch.io",
+       "3kit.com",
+       "collector.tribe.so",
+       "w.hcaptcha.com",
+       "api-k8s.caast.tv",
+       "yellow.ai",
+       "logitech.fr",
+       "www.clarity.ms",
+       "logitecheurope.us-6.evergage.com",
+       "hcaptcha.com",
+       "api2.hcaptcha.com"
+      ]
+     },
+     {
+      "id": "C0002",
+      "name": "Analytics Cookies",
+      "status": "active",
+      "hosts": [
+       "ip2org-ext-api-gw-prd.zi-ext.com",
+       "c.clarity.ms",
+       "bizible.com",
+       "clarity.ms",
+       "ip2org-ext.zi-ext.com"
+      ]
+     },
+     {
+      "id": "C0003",
+      "name": "Functional Cookies",
+      "status": "active",
+      "hosts": [
+       "hackerone.com",
+       "ws.zoominfo.com",
+       "global-e.com",
+       "olivia.paradox.ai",
+       "cdn.evgnet.com",
+       "js.clickrank.ai",
+       "myunidays.com"
+      ]
+     },
+     {
+      "id": "C0004",
+      "name": "Marketing Cookies",
+      "status": "active",
+      "hosts": [
+       "adsrvr.org",
+       "youtube.com",
+       "c.bing.com",
+       "casalemedia.com",
+       "dpm.demdex.net",
+       "linkedin.com",
+       "doubleclick.net",
+       "demdex.net",
+       "pxf.io",
+       "ojrq.net",
+       "tiktok.com",
+       "logitech.cfzu.net",
+       "cfzu.net",
+       "everesttech.net",
+       "login.q4inc.com",
+       "bing.com",
+       "sjrtp8-cdn.marketo.com",
+       "sjrtp8.marketo.com",
+       "company-target.com",
+       "www.facebook.com",
+       "pinterest.com",
+       "ct.pinterest.com",
+       "tremorhub.com"
+      ]
+     },
+     {
+      "id": "C0005",
+      "name": "Social Media Cookies",
+      "status": "active",
+      "hosts": [
+       "js.clickrank.ai"
+      ]
+     }
+    ]
+   },
+   {
+    "name": "California_Users",
+    "type": "GDPR",
+    "countries": 0,
+    "default": false,
+    "gpc": true,
+    "consentModel": "opt-out",
+    "banner": true,
+    "languages": 36,
+    "groups": [
+     {
+      "id": "C0001",
+      "name": "Strictly Necessary Cookies",
+      "status": "always active",
+      "hosts": [
+       "accounts.logi.com",
+       "prosupport.logi.com",
+       "id.logi.com",
+       "www.logitech.com",
+       "smooch.io",
+       "3kit.com",
+       "collector.tribe.so",
+       "w.hcaptcha.com",
+       "api-k8s.caast.tv",
+       "yellow.ai",
+       "logitech.fr",
+       "www.clarity.ms",
+       "logitecheurope.us-6.evergage.com",
+       "hcaptcha.com",
+       "api2.hcaptcha.com"
+      ]
+     },
+     {
+      "id": "C0002",
+      "name": "Analytics Cookies",
+      "status": "active",
+      "hosts": [
+       "ip2org-ext-api-gw-prd.zi-ext.com",
+       "c.clarity.ms",
+       "bizible.com",
+       "clarity.ms",
+       "ip2org-ext.zi-ext.com"
+      ]
+     },
+     {
+      "id": "C0003",
+      "name": "Functional Cookies",
+      "status": "active",
+      "hosts": [
+       "hackerone.com",
+       "ws.zoominfo.com",
+       "global-e.com",
+       "olivia.paradox.ai",
+       "cdn.evgnet.com",
+       "js.clickrank.ai",
+       "myunidays.com"
+      ]
+     },
+     {
+      "id": "C0004",
+      "name": "Marketing Cookies",
+      "status": "active",
+      "hosts": [
+       "adsrvr.org",
+       "youtube.com",
+       "c.bing.com",
+       "casalemedia.com",
+       "dpm.demdex.net",
+       "linkedin.com",
+       "doubleclick.net",
+       "demdex.net",
+       "pxf.io",
+       "ojrq.net",
+       "tiktok.com",
+       "logitech.cfzu.net",
+       "cfzu.net",
+       "everesttech.net",
+       "login.q4inc.com",
+       "bing.com",
+       "sjrtp8-cdn.marketo.com",
+       "sjrtp8.marketo.com",
+       "company-target.com",
+       "www.facebook.com",
+       "pinterest.com",
+       "ct.pinterest.com",
+       "tremorhub.com"
+      ]
+     },
+     {
+      "id": "C0005",
+      "name": "Social Media Cookies",
+      "status": "active",
+      "hosts": [
+       "js.clickrank.ai"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

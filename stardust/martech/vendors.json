@@ -1,0 +1,171 @@
+{
+ "pages": 1,
+ "vendors": [
+  {
+   "host": "cdn.bizible.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "www.googletagmanager.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": "tag manager: Google Tag Manager",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "munchkin.marketo.net",
+   "pages": 1,
+   "firstParty": false,
+   "role": "marketing: Marketo Munchkin",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "cdn.yellowmessenger.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "utt.impactcdn.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "siteimproveanalytics.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "cdn.quantummetric.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": "analytics: session replay",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "www.redditstatic.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "connect.facebook.net",
+   "pages": 1,
+   "firstParty": false,
+   "role": "marketing: ad / retargeting pixel",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "cdn.cookielaw.org",
+   "pages": 1,
+   "firstParty": false,
+   "role": "consent: OneTrust",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "www.logitech.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "cdn.evgnet.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "webtags.logitech.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "www.gstatic.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "googleads.g.doubleclick.net",
+   "pages": 1,
+   "firstParty": false,
+   "role": "marketing: ad / retargeting pixel",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "cdn.tkrconnector.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "m.servedby-buysellads.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "ws.zoominfo.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "logitech.demdex.net",
+   "pages": 1,
+   "firstParty": false,
+   "role": "analytics: Adobe Analytics / Experience Cloud ID",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "8227232.fls.doubleclick.net",
+   "pages": 1,
+   "firstParty": false,
+   "role": "marketing: ad / retargeting pixel",
+   "class": "T",
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "adobeDataLayer": 1,
+  "dataLayer": 1,
+  "OneTrust": 1
+ },
+ "cspHosts": []
+}

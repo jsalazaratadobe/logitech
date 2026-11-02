@@ -1,0 +1,730 @@
+{
+  "url": "https://www.logitech.com/en-us",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 0,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 1200,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 2400,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 3600,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 4800,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 6000,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 5943,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k shadow-lg",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 4443,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k shadow-lg",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 2400,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k shadow-lg",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 1200,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k shadow-lg",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 800,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k shadow-lg",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 500,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k shadow-lg",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 300,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k shadow-lg",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 200,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k shadow-lg",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 150,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k shadow-lg",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 120,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k shadow-lg",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 90,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k shadow-lg",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 60,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k shadow-lg",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 30,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    },
+    {
+      "y": 0,
+      "cls": "top-header bg-white mode-light svelte-t4xc4k",
+      "position": "static",
+      "height": "113px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 2
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": "section.background-banner button[aria-label]",
+      "frames": [
+        {
+          "t": 30622.29999999702,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 30825.89999999106,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 31030.09999999404,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 31234.70000000298,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": "a.btn-solid-brand",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(0, 253, 207)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(0, 253, 207)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "a.btn-outline-brand",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "a.cta-link-dash",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(27, 27, 27)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(27, 27, 27)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "a.standard-card",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(27, 27, 27)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "h2.heading2",
+            "transform": "none",
+            "color": "rgb(27, 27, 27)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.w-[--w].aspect-[--ar]",
+            "transform": "none",
+            "color": "rgb(27, 27, 27)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(27, 27, 27)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "h2.heading2",
+            "transform": "none",
+            "color": "rgb(27, 27, 27)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.w-[--w].aspect-[--ar]",
+            "transform": "none",
+            "color": "rgb(27, 27, 27)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "#blade-category-cards a.block",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(27, 27, 27)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.scale-75.group-hover:scale-100",
+            "transform": "matrix(0.75, 0, 0, 0.75, 0, 0)",
+            "color": "rgb(27, 27, 27)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 0.4s"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(27, 27, 27)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.scale-75.group-hover:scale-100",
+            "transform": "matrix(0.75, 0, 0, 0.75, 0, 0)",
+            "color": "rgb(27, 27, 27)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 0.4s"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".editorial-card-media",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(27, 27, 27)",
+          "background": "rgb(180, 183, 192)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.contents.group",
+            "transform": "none",
+            "color": "rgb(27, 27, 27)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.w-[--w].aspect-[--ar]",
+            "transform": "none",
+            "color": "rgb(27, 27, 27)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(27, 27, 27)",
+          "background": "rgb(180, 183, 192)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.contents.group",
+            "transform": "none",
+            "color": "rgb(27, 27, 27)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.w-[--w].aspect-[--ar]",
+            "transform": "none",
+            "color": "rgb(27, 27, 27)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "0.2s"
+          }
+        ]
+      }
+    },
+    {
+      "sel": "a.desktop-main-categories",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(27, 27, 27)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(27, 27, 27)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "button.ask-ai",
+      "error": "not found"
+    },
+    {
+      "sel": ".footer-bar-submit-button",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(0, 253, 207)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.15s ease-in-out"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(0, 253, 207)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "0.15s ease-in-out"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": "footer .footer-link a",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [
+      {
+        "src": "https://resource.logitech.com/q_auto,c_fill,w_1920,h_625/content/dam/logitech/en/homepage/banners/background-banner/mx-master-4-se-developer-banner-desktop.mp4",
+        "autoplay": false,
+        "loop": false,
+        "muted": true,
+        "paused": true,
+        "currentTime": 8.742067,
+        "readyState": 4,
+        "inViewport": true,
+        "currentTimeAfter": 8.742067,
+        "playing": false
+      },
+      {
+        "src": "https://resource.logitech.com/q_auto,c_fill,w_1920,h_600/content/dam/logitech/en/homepage/banners/background-banner/logi-holiday-early-black-friday-homepage-hero-desktop.mp4",
+        "autoplay": false,
+        "loop": false,
+        "muted": true,
+        "paused": true,
+        "currentTime": 0,
+        "readyState": 4,
+        "inViewport": true,
+        "currentTimeAfter": 0,
+        "playing": false
+      }
+    ],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "top",
+        "el": "body.scroll-lock > div > div.application.h-full.overflow-x-clip > div.bg-default-bg.group/application.mode-light > div.sticky.z-30.transition-all",
+        "y": 6790,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "body.scroll-lock > div > div.application.h-full.overflow-x-clip > div.bg-default-bg.group/application.mode-light > div.sticky.z-30.transition-all",
+        "y": 0,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "body.scroll-lock > div > div.application.h-full.overflow-x-clip > div.bg-default-bg.group/application.mode-light > div.sticky.z-30.transition-all",
+        "y": 4541,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "top",
+        "el": "body.scroll-lock > div > div.application.h-full.overflow-x-clip > div.bg-default-bg.group/application.mode-light > div.sticky.z-30.transition-all",
+        "y": 823,
+        "dur": "0.3s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "scroll-lock"
+        ],
+        "el": "html.wf-roboto-n4-inactive.wf-inactive > body.scroll-lock",
+        "y": 1600
+      },
+      {
+        "added": [
+          "shadow-lg"
+        ],
+        "el": "div > div.application.h-full.overflow-x-clip > div.bg-default-bg.group/application.mode-light > div.sticky.z-30.transition-all > header.top-header.bg-white.mode-light",
+        "y": 6798
+      },
+      {
+        "added": [
+          "carousel-disabled"
+        ],
+        "el": "section.editorial-cards.relative.max-lg:overflow-x-hidden > div.max-width-padding > div.relative.pt-40-80.mb-40-80 > div.carousel-wrapper.relative > div.carousel.carousel-disabled",
+        "y": 1306
+      },
+      {
+        "added": [
+          "opacity-0",
+          "pointer-events-none"
+        ],
+        "el": "section.background-banner.bg-image.bg-cover > div.inner.svelte-rzyt13 > div.background.relative.bg-cover > div.inline-video.absolute.inset-0 > video.background-image.bg-cover.bg-center",
+        "y": 115
+      },
+      {
+        "added": [
+          "animate-pulse"
+        ],
+        "el": "div.inner.svelte-rzyt13 > div.background.relative.bg-cover > div.inline-video.absolute.inset-0 > button.opacity-80.hover:opacity-100.absolute > div.w-[24px].h-[24px].bg-black",
+        "y": 99
+      },
+      {
+        "added": [
+          "opacity-100"
+        ],
+        "el": "section.background-banner.bg-image.bg-cover > div.inner.svelte-rzyt13 > div.background.relative.bg-cover > div.inline-video.absolute.inset-0 > video.background-image.bg-cover.bg-center",
+        "y": 99
+      },
+      {
+        "added": [
+          "shadow-lg"
+        ],
+        "el": "div > div.application.h-full.overflow-x-clip > div.bg-default-bg.group/application.mode-light > div.sticky.z-30.transition-all > header.top-header.bg-white.mode-light",
+        "y": 4548
+      },
+      {
+        "added": [
+          "carousel-disabled"
+        ],
+        "el": "section.editorial-cards.relative.max-lg:overflow-x-hidden > div.max-width-padding > div.relative.pt-40-80.mb-40-80 > div.carousel-wrapper.relative > div.carousel.carousel-disabled",
+        "y": 1319
+      }
+    ]
+  }
+}

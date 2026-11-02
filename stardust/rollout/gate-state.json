@@ -1,0 +1,16 @@
+{
+  "pages": [
+    {
+      "slug": "en-us",
+      "url": "https://www.logitech.com/en-us",
+      "title": "Logitech United States",
+      "type": "landing",
+      "template": "en-us",
+      "fidelityTier": "archetype",
+      "status": "deployed",
+      "liveUrl": "https://main--73326f3f--aemcoder.aem.live/en-us",
+      "deployedPath": "/en-us",
+      "prototypePath": "stardust/prototypes/en-us-proposed.html"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "frozenAt": "2026-11-02T21:44:14.240Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "b665514c7b1bd60f6cc6bf4445a310e01554dab3973f568ac78ea20fcde45918",
+    "blocks/footer/footer.js": "3baa3fabb5afc780b9a983893cd48d2e565fee478b9f3ca32a4dbd9015fa6438",
+    "blocks/header/header.css": "e284c08ddf5f8f2deff794aadc3e998a27d44de2a09ae1a97a6e3414ce85ac3f",
+    "blocks/header/header.js": "83476ebe5a893767fbe7f6c5bb16b91fe53128c1a6dc3b1c734bdaf9ae3acdc6",
+    "blocks/header/logi-logo-anim-dark.webp": "05c60abae894265a24905d2dbc705ae05a3840d0fc559c4c2e7fd654609c5294",
+    "head.html": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/martech.js": "5a4dd520cb670f37125c22046627d7dcae67b1c64f2920b0ba833e8aec24f668",
+    "scripts/scripts.js": "4503c02bd53c5e5fb04b14e325e467a26f1ec9446519bb368ba779fbfc5a5096",
+    "styles/fonts.css": "ef151343fe98f3cea3578de200b85450f788b6171c104247aded7801e8d4963b",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "42307233ff27e740beae0973b3a37f6c696dd895dad29fc840b94c4e2b1dd0b1"
+  }
+}

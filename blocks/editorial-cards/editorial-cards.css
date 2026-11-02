@@ -1,0 +1,258 @@
+/* editorial-cards — lifted from stardust/prototypes/en-us.css (editorial cards), scoped. */
+.editorial-cards {
+  --speed-factor: 12;
+
+  position: relative;
+  overflow-x: hidden;
+  color: var(--fg);
+}
+
+.editorial-cards .editorial-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.editorial-cards .editorial-inner {
+  position: relative;
+  padding-top: var(--s40-80);
+  margin-bottom: var(--s40-80);
+}
+
+.editorial-cards .editorial-mark {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+  color: rgb(234 235 237 / 60%);
+}
+
+.editorial-cards .editorial-track {
+  position: relative;
+}
+
+.editorial-cards .editorial-grid {
+  position: relative;
+  display: flex;
+  gap: var(--gutter);
+  transition: transform 0.3s ease;
+}
+
+.editorial-cards .ed-card {
+  flex-shrink: 0;
+  width: 250px;
+}
+
+.editorial-cards .ed-card-media {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 242px;
+  height: 242px;
+  border-radius: 12px;
+  background: var(--gray-750);
+}
+
+.editorial-cards .ed-card-media a {
+  display: contents;
+}
+
+.editorial-cards .ed-card-media :is(.media-m, .media-d, .media-all) {
+  width: 100%;
+  height: 100%;
+}
+
+.editorial-cards .ed-card-media .media-d {
+  display: none;
+}
+
+.editorial-cards .ed-card-media picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.editorial-cards .ed-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.editorial-cards .ed-card-title {
+  margin-top: 32px;
+  letter-spacing: -0.025em;
+}
+
+.editorial-cards .ed-card-title :is(h1, h2, h3, h4) {
+  font: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  margin: 0;
+}
+
+.editorial-cards .ed-card-text {
+  max-width: 708px;
+  margin-top: 16px;
+  margin-inline-end: auto;
+  color: var(--gray-360);
+}
+
+.editorial-cards .ed-card-cta {
+  margin-top: 16px;
+}
+
+/* CTA dash (canon .cta-dash): the authored anchor carries the dash; its end padding replaces
+   the source's inner <span> padding, the dash sits 14px after the label */
+.editorial-cards .ed-card-cta a {
+  display: inline-block;
+  border-radius: 9999px;
+  padding-block: 8px;
+  padding-inline-end: calc(14px + var(--dash-w));
+  font-size: 11px;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.editorial-cards .ed-card-cta a::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: var(--dash-w);
+  height: 5px;
+  background-color: var(--brand);
+  transform: translate(14px, 0.35em);
+  transition: width 0.15s;
+}
+
+/* carousel arrows (present below lg, invisible at rest: opacity 0 until focus) */
+.editorial-cards .carousel-arrows {
+  position: absolute;
+  inset: 0;
+  margin-inline: calc(var(--grid-margin) * -1);
+  pointer-events: none;
+}
+
+.editorial-cards .carousel-arrows button {
+  --size: 48px;
+
+  position: absolute;
+  top: 50%;
+  width: var(--size);
+  height: var(--size);
+  display: grid;
+  place-items: center;
+  background: #fff;
+  color: var(--fg);
+  border: 4px solid var(--gray-930);
+  border-radius: 9999px;
+  opacity: 0;
+  transform: translateY(-50%);
+  z-index: 10;
+  font-size: 24px;
+  transition: opacity 0.15s;
+}
+
+.editorial-cards .carousel-arrows button:focus-visible {
+  opacity: 1;
+}
+
+.editorial-cards .carousel-arrows .prev {
+  inset-inline-start: 8px;
+}
+
+.editorial-cards .carousel-arrows .next {
+  inset-inline-end: 8px;
+}
+
+.editorial-cards .carousel-arrows svg {
+  width: 1em;
+  height: 1em;
+}
+
+.editorial-cards .carousel-arrows path {
+  stroke-width: 4;
+}
+
+@media (width >= 840px) {
+  .editorial-cards .ed-card-cta a {
+    padding-block: 6px;
+    font-size: 14px;
+  }
+}
+
+@media (width >= 1024px) {
+  .editorial-cards {
+    --bottom-offset: 216px;
+
+    overflow-x: visible;
+    margin-bottom: calc(var(--bottom-offset) * -1);
+  }
+
+  .editorial-cards .editorial-bg {
+    bottom: var(--bottom-offset);
+  }
+
+  .editorial-cards .editorial-grid {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 128px var(--gutter);
+    grid-template-areas:
+      "A A A A A . B B . C C C"
+      "A A A A A . E E E E . ."
+      ". . D D D . E E E E . .";
+    transition: none;
+    transform: none;
+  }
+
+  .editorial-cards .ed-card {
+    width: auto;
+  }
+
+  .editorial-cards .ed-card-a {
+    grid-area: A;
+    margin-top: 128px;
+  }
+
+  .editorial-cards .ed-card-b {
+    grid-area: B;
+  }
+
+  .editorial-cards .ed-card-c {
+    grid-area: C;
+    margin-top: 128px;
+  }
+
+  .editorial-cards .ed-card-d {
+    grid-area: D;
+    position: relative;
+    top: -180px;
+  }
+
+  .editorial-cards .ed-card-e {
+    grid-area: E;
+    position: relative;
+    top: -84px;
+  }
+
+  .editorial-cards .ed-card-media {
+    width: auto;
+    height: auto;
+    aspect-ratio: 4 / 5;
+  }
+
+  .editorial-cards .ed-card-media .media-m {
+    display: none;
+  }
+
+  .editorial-cards .ed-card-media .media-d {
+    display: block;
+  }
+
+  .editorial-cards .carousel-arrows {
+    display: none;
+  }
+}
